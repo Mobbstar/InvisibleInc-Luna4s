@@ -1,0 +1,443 @@
+<Build name="grp_agent_luna4s.fla">
+  <Symbol name="grp_skrf_clr_00">
+    <Frame framenum="0" duration="1" image="skrf_clr_00-0-1" w="32" h="28" x="0.6254997" y="-0.4244995" />
+    <Frame framenum="1" duration="1" image="skrf_clr_00-1-1" w="32" h="24" x="-0.1245003" y="-2.1495" />
+    <Frame framenum="2" duration="1" image="skrf_clr_00-2-1" w="32" h="24" x="-1.349501" y="0.2004995" />
+    <Frame framenum="3" duration="1" image="skrf_clr_00-3-1" w="32" h="24" x="-0.07449913" y="-1.4245" />
+    <Frame framenum="4" duration="1" image="skrf_clr_00-4-1" w="32" h="28" x="-1.699499" y="0.4005003" />
+    <Frame framenum="5" duration="1" image="skrf_clr_00-5-1" w="32" h="24" x="-1.3745" y="-2.0245" />
+    <Frame framenum="6" duration="1" image="skrf_clr_00-6-1" w="32" h="24" x="-5.7745" y="-0.5494995" />
+    <Frame framenum="7" duration="1" image="skrf_clr_00-7-1" w="32" h="24" x="-2.3995" y="-1.1245" />
+    <Frame framenum="8" duration="1" image="skrf_clr_00-8-1" w="32" h="28" x="-4.324501" y="1.0755" />
+  </Symbol>
+  <Symbol name="grp_alr_clr_00">
+    <Frame framenum="0" duration="1" image="alr_clr_00-0-1" w="20" h="36" x="0.07549953" y="8.4005" />
+    <Frame framenum="1" duration="1" image="alr_clr_00-1-1" w="20" h="36" x="0.5755005" y="8.1255" />
+    <Frame framenum="2" duration="1" image="alr_clr_00-2-1" w="20" h="36" x="0.7005005" y="8.1505" />
+    <Frame framenum="3" duration="1" image="alr_clr_00-3-1" w="20" h="32" x="0.5755005" y="7.3505" />
+    <Frame framenum="4" duration="1" image="alr_clr_00-4-1" w="16" h="36" x="-0.1995001" y="9.6005" />
+    <Frame framenum="5" duration="1" image="alr_clr_00-5-1" w="16" h="32" x="-0.1494999" y="8.6255" />
+    <Frame framenum="6" duration="1" image="alr_clr_00-6-1" w="20" h="36" x="-0.3745003" y="10.8505" />
+    <Frame framenum="7" duration="1" image="alr_clr_00-7-1" w="20" h="36" x="-0.5494995" y="9.2755" />
+    <Frame framenum="8" duration="1" image="alr_clr_00-8-1" w="16" h="36" x="0.2255001" y="9.7505" />
+    <Frame framenum="9" duration="1" image="alr_clr_00-9-1" w="16" h="36" x="-0.2495003" y="10.5755" />
+    <Frame framenum="10" duration="1" image="alr_clr_00-10-1" w="16" h="36" x="-0.2994995" y="9.4755" />
+    <Frame framenum="11" duration="1" image="alr_clr_00-11-1" w="20" h="28" x="0.3505001" y="5.5005" />
+    <Frame framenum="12" duration="1" image="alr_clr_00-12-1" w="20" h="24" x="0.8004999" y="3.3755" />
+  </Symbol>
+  <Symbol name="grp_her_clr_00">
+    <Frame framenum="0" duration="1" image="her_clr_00-0-1" w="20" h="24" x="2.1255" y="5.4755" />
+    <Frame framenum="1" duration="1" image="her_clr_00-1-1" w="20" h="24" x="2.2255" y="6.1005" />
+    <Frame framenum="2" duration="1" image="her_clr_00-2-1" w="20" h="24" x="1.9755" y="4.8005" />
+    <Frame framenum="3" duration="1" image="her_clr_00-3-1" w="20" h="28" x="1.4255" y="4.9505" />
+    <Frame framenum="4" duration="1" image="her_clr_00-4-1" w="20" h="24" x="-2.6245" y="3.5255" />
+    <Frame framenum="5" duration="1" image="her_clr_00-5-1" w="20" h="28" x="-0.6995001" y="5.9255" />
+    <Frame framenum="6" duration="1" image="her_clr_00-6-1" w="20" h="24" x="-1.6745" y="4.7005" />
+    <Frame framenum="7" duration="1" image="her_clr_00-7-1" w="20" h="24" x="-1.1495" y="5.0755" />
+    <Frame framenum="8" duration="1" image="her_clr_00-8-1" w="20" h="24" x="-1.1495" y="5.0755" />
+    <Frame framenum="9" duration="1" image="her_clr_00-9-1" w="24" h="24" x="1.9255" y="4.5005" />
+    <Frame framenum="10" duration="1" image="her_clr_00-10-1" w="24" h="16" x="-0.5244999" y="-0.2495003" />
+    <Frame framenum="11" duration="1" image="her_clr_00-11-1" w="20" h="20" x="-0.9244995" y="2.5505" />
+    <Frame framenum="12" duration="1" image="her_clr_00-12-1" w="20" h="32" x="1.3505" y="5.3255" />
+    <Frame framenum="13" duration="1" image="her_clr_00-13-1" w="24" h="28" x="-2.8495" y="5.2505" />
+    <Frame framenum="14" duration="1" image="her_clr_00-14-1" w="24" h="24" x="1.3505" y="3.4255" />
+    <Frame framenum="15" duration="1" image="her_clr_00-15-1" w="24" h="28" x="1.0755" y="5.275499" />
+    <Frame framenum="16" duration="1" image="her_clr_00-16-1" w="20" h="24" x="-0.3745003" y="4.3505" />
+    <Frame framenum="17" duration="1" image="her_clr_00-17-1" w="24" h="24" x="-1.8745" y="2.4255" />
+    <Frame framenum="18" duration="1" image="her_clr_00-18-1" w="20" h="28" x="0.1254997" y="4.6755" />
+    <Frame framenum="19" duration="1" image="her_clr_00-19-1" w="28" h="24" x="1.5505" y="1.1255" />
+    <Frame framenum="20" duration="1" image="her_clr_00-20-1" w="24" h="24" x="2.4505" y="-0.1745005" />
+    <Frame framenum="21" duration="1" image="her_clr_00-21-1" w="24" h="24" x="-0.2244997" y="0.1254997" />
+    <Frame framenum="22" duration="1" image="her_clr_00-22-1" w="24" h="28" x="-2.2745" y="5.2505" />
+    <Frame framenum="23" duration="1" image="her_clr_00-23-1" w="20" h="28" x="-0.2994995" y="6.2255" />
+    <Frame framenum="24" duration="1" image="her_clr_00-24-1" w="24" h="24" x="-0.07450008" y="0.3505001" />
+    <Frame framenum="25" duration="1" image="her_clr_00-25-1" w="28" h="28" x="-4.949501" y="6.5005" />
+    <Frame framenum="26" duration="1" image="her_clr_00-26-1" w="20" h="28" x="-0.1245003" y="4.9755" />
+    <Frame framenum="27" duration="1" image="her_clr_00-27-1" w="28" h="32" x="4.2505" y="7.2505" />
+    <Frame framenum="28" duration="1" image="her_clr_00-28-1" w="20" h="24" x="-2.8245" y="4.1505" />
+    <Frame framenum="29" duration="1" image="her_clr_00-29-1" w="24" h="24" x="4.1255" y="4.1255" />
+  </Symbol>
+  <Symbol name="grp_aur_clr_00">
+    <Frame framenum="0" duration="1" image="aur_clr_00-0-1" w="20" h="40" x="0.9755001" y="11.1505" />
+    <Frame framenum="1" duration="1" image="aur_clr_00-1-1" w="24" h="40" x="4.3005" y="12.8755" />
+    <Frame framenum="2" duration="1" image="aur_clr_00-2-1" w="28" h="52" x="6.5255" y="18.5505" />
+    <Frame framenum="3" duration="1" image="aur_clr_00-3-1" w="24" h="40" x="3.0005" y="13.5505" />
+    <Frame framenum="4" duration="1" image="aur_clr_00-4-1" w="24" h="40" x="1.8005" y="13.8255" />
+    <Frame framenum="5" duration="1" image="aur_clr_00-5-1" w="24" h="40" x="1.4255" y="11.5005" />
+    <Frame framenum="6" duration="1" image="aur_clr_00-6-1" w="20" h="36" x="0.7005005" y="11.2005" />
+    <Frame framenum="7" duration="1" image="aur_clr_00-7-1" w="20" h="40" x="1.1005" y="13.1255" />
+    <Frame framenum="8" duration="1" image="aur_clr_00-8-1" w="20" h="40" x="-1.8995" y="11.4755" />
+    <Frame framenum="9" duration="1" image="aur_clr_00-9-1" w="20" h="40" x="-1.3245" y="12.9005" />
+    <Frame framenum="10" duration="1" image="aur_clr_00-10-1" w="20" h="40" x="-1.6995" y="12.8755" />
+    <Frame framenum="11" duration="1" image="aur_clr_00-11-1" w="20" h="36" x="0.7005005" y="10.8755" />
+    <Frame framenum="12" duration="1" image="aur_clr_00-12-1" w="24" h="42" x="1.9505" y="11.1505" />
+  </Symbol>
+  <Symbol name="grp_bang_clr_00">
+    <Frame framenum="0" duration="1" image="bang_clr_00-0-1" w="32" h="36" x="0.2755003" y="-10.1995" />
+    <Frame framenum="1" duration="1" image="bang_clr_00-1-1" w="36" h="36" x="-2.9995" y="-9.1745" />
+    <Frame framenum="2" duration="1" image="bang_clr_00-2-1" w="36" h="32" x="-1.949499" y="-10.449" />
+    <Frame framenum="3" duration="1" image="bang_clr_00-3-1" w="36" h="32" x="-2.4995" y="-9.7995" />
+    <Frame framenum="4" duration="1" image="bang_clr_00-4-1" w="32" h="36" x="-0.4745007" y="-9.9245" />
+  </Symbol>
+  <Symbol name="grp_fac_clr_00">
+    <Frame framenum="0" duration="1" image="fac_clr_00-0-1" w="28" h="40" x="0.1254997" y="-6.349501" />
+    <Frame framenum="1" duration="1" image="fac_clr_00-1-1" w="28" h="40" x="-2.1495" y="-5.3745" />
+    <Frame framenum="2" duration="1" image="fac_clr_00-2-1" w="32" h="36" x="-1.7745" y="-5.3995" />
+    <Frame framenum="3" duration="1" image="fac_clr_00-3-1" w="28" h="36" x="-2.0245" y="-5.199501" />
+    <Frame framenum="4" duration="1" image="fac_clr_00-4-1" w="32" h="38" x="-0.2245007" y="-4.324501" />
+  </Symbol>
+  <Symbol name="grp_nck_clr_00">
+    <Frame framenum="0" duration="1" image="nck_clr_00-0-1" w="20" h="32" x="0.07549953" y="-7.599501" />
+    <Frame framenum="1" duration="1" image="nck_clr_00-1-1" w="20" h="32" x="0.6754999" y="-7.724501" />
+    <Frame framenum="2" duration="1" image="nck_clr_00-2-1" w="20" h="32" x="0.07549953" y="-8.974499" />
+    <Frame framenum="3" duration="1" image="nck_clr_00-3-1" w="24" h="32" x="-1.0495" y="-8.2745" />
+    <Frame framenum="4" duration="1" image="nck_clr_00-4-1" w="20" h="32" x="0.3004999" y="-8.974499" />
+    <Frame framenum="5" duration="1" image="nck_clr_00-5-1" w="28" h="32" x="-2.5495" y="-5.724501" />
+    <Frame framenum="6" duration="1" image="nck_clr_00-6-1" w="24" h="32" x="0.3004999" y="-5.2495" />
+    <Frame framenum="7" duration="1" image="nck_clr_00-7-1" w="24" h="32" x="0.3004999" y="-5.2495" />
+    <Frame framenum="8" duration="1" image="nck_clr_00-8-1" w="24" h="32" x="-0.2994995" y="-5.1245" />
+  </Symbol>
+  <Symbol name="grp_har_clr_00">
+    <Frame framenum="0" duration="1" image="har_clr_00-0-1" w="32" h="44" x="-0.1744995" y="12.3005" />
+    <Frame framenum="1" duration="1" image="har_clr_00-1-1" w="28" h="44" x="-1.7245" y="12.8505" />
+    <Frame framenum="2" duration="1" image="har_clr_00-2-1" w="28" h="44" x="-0.6995001" y="13.9255" />
+    <Frame framenum="3" duration="1" image="har_clr_00-3-1" w="32" h="44" x="-1.2495" y="13.8755" />
+  </Symbol>
+  <Symbol name="grp_cst_clr_00">
+    <Frame framenum="0" duration="1" image="cst_clr_00-0-1" w="40" h="40" x="-0.2744999" y="-12.0995" />
+    <Frame framenum="1" duration="1" image="cst_clr_00-1-1" w="36" h="40" x="2.3505" y="-12.2995" />
+    <Frame framenum="2" duration="1" image="cst_clr_00-2-1" w="36" h="40" x="1.175501" y="-12.924" />
+    <Frame framenum="3" duration="1" image="cst_clr_00-3-1" w="40" h="36" x="-0.9995003" y="-11.3745" />
+    <Frame framenum="4" duration="1" image="cst_clr_00-4-1" w="36" h="40" x="0.2005005" y="-11.5995" />
+    <Frame framenum="5" duration="1" image="cst_clr_00-5-1" w="36" h="40" x="2.4755" y="-12.1745" />
+    <Frame framenum="6" duration="1" image="cst_clr_00-6-1" w="36" h="40" x="0.9755001" y="-13.074" />
+    <Frame framenum="7" duration="1" image="cst_clr_00-7-1" w="36" h="36" x="-0.1994991" y="-10.5495" />
+    <Frame framenum="8" duration="1" image="cst_clr_00-8-1" w="36" h="36" x="-6.6245" y="-10.7245" />
+    <Frame framenum="9" duration="1" image="cst_clr_00-9-1" w="36" h="36" x="-3.6245" y="-10.1245" />
+  </Symbol>
+  <Symbol name="grp_abs_clr_00">
+    <Frame framenum="0" duration="1" image="abs_clr_00-0-1" w="32" h="28" x="-0.1494999" y="-5.9245" />
+    <Frame framenum="1" duration="1" image="abs_clr_00-1-1" w="32" h="28" x="0.7504997" y="-7.974501" />
+    <Frame framenum="2" duration="1" image="abs_clr_00-2-1" w="28" h="28" x="0.2255001" y="-7.0245" />
+    <Frame framenum="3" duration="1" image="abs_clr_00-3-1" w="32" h="28" x="0.4505005" y="-6.8995" />
+    <Frame framenum="4" duration="1" image="abs_clr_00-4-1" w="28" h="24" x="0.05049992" y="-4.2495" />
+    <Frame framenum="5" duration="1" image="abs_clr_00-5-1" w="32" h="28" x="0.3754997" y="-7.724501" />
+    <Frame framenum="6" duration="1" image="abs_clr_00-6-1" w="32" h="28" x="0.2255001" y="-7.1495" />
+    <Frame framenum="7" duration="1" image="abs_clr_00-7-1" w="28" h="28" x="-0.07450008" y="-6.8995" />
+    <Frame framenum="8" duration="1" image="abs_clr_00-8-1" w="32" h="28" x="0.2255001" y="-7.974501" />
+  </Symbol>
+  <Symbol name="grp_med_clr_00">
+    <!-- <Frame framenum="0" duration="1" image="med_clr_00-0-1" w="28" h="60" x="5.0505" y="19.0755" /> --> <!-- top r, idle E, cover NE -->
+    <Frame framenum="0" duration="1" image="med_clr_00-0" w="2" h="2" x="5.0505" y="19.0755" />
+    <!-- <Frame framenum="1" duration="1" image="med_clr_00-1-1" w="28" h="56" x="-0.5745001" y="12.8005" /> --> <!-- bot r, idle E, cover NE -->
+    <Frame framenum="1" duration="1" image="med_clr_00-0" w="2" h="2" x="-0.5745001" y="12.8005" />
+    <!-- <Frame framenum="2" duration="1" image="med_clr_00-2-1" w="20" h="56" x="-0.4244995" y="18.1005" /> --> <!-- top l, idle E -->
+    <Frame framenum="2" duration="1" image="med_clr_00-0" w="2" h="2" x="-0.4244995" y="18.1005" />
+    <!-- <Frame framenum="3" duration="1" image="med_clr_00-3-1" w="20" h="44" x="-0.3994999" y="14.9755" /> --> <!-- bot l, idle E, cover NE -->
+	<Frame framenum="3" duration="1" image="med_clr_00-0" w="2" h="2" x="-0.3994999" y="14.9755" />
+    <!-- <Frame framenum="4" duration="1" image="med_clr_00-22-1" w="40" h="44" x="0.1005001" y="12.0505" /> --> <!-- back, idle E, NE, cover E, NE -->
+    <Frame framenum="4" duration="1" image="med_clr_00-0" w="2" h="2" x="0.1005001" y="12.0505" />
+    <!-- <Frame framenum="5" duration="1" image="med_clr_00-5-1" w="28" h="60" x="4.7255" y="19.5505" /> --> <!-- top r, idle SE, NE, cover SW -->
+    <Frame framenum="5" duration="1" image="med_clr_00-0" w="2" h="2" x="4.7255" y="19.5505" />
+    <!-- <Frame framenum="6" duration="1" image="med_clr_00-6-1" w="24" h="52" x="0.7005005" y="14.9755" /> --> <!-- bot r, idle SE, NE -->
+    <Frame framenum="6" duration="1" image="med_clr_00-0" w="2" h="2" x="0.7005005" y="14.9755" />
+    <!-- <Frame framenum="7" duration="1" image="med_clr_00-7-1" w="24" h="56" x="4.6005" y="21.4005" /> --> <!-- top l, idle NE, cover S, E, NE -->
+    <Frame framenum="7" duration="1" image="med_clr_00-0" w="2" h="2" x="4.6005" y="21.4005" />
+    <!-- <Frame framenum="8" duration="1" image="med_clr_00-24-1" w="32" h="48" x="4.0505" y="14.9505" /> --> <!-- unused? -->
+    <Frame framenum="8" duration="1" image="med_clr_00-0" w="2" h="2" x="4.0505" y="14.9505" />
+    <!-- <Frame framenum="9" duration="1" image="med_clr_00-9-1" w="28" h="60" x="3.2755" y="20.3505" /> --> <!-- top r, idle S, cover SE, E -->
+    <Frame framenum="9" duration="1" image="med_clr_00-0" w="2" h="2" x="3.2755" y="20.3505" />
+    <!-- <Frame framenum="10" duration="1" image="med_clr_00-10-1" w="28" h="62" x="3.6255" y="22.2255" /> --> <!-- top back, idle S -->
+    <Frame framenum="10" duration="1" image="med_clr_00-0" w="2" h="2" x="3.6255" y="22.2255" />
+    <!-- <Frame framenum="11" duration="1" image="med_clr_00-11-1" w="28" h="52" x="1.1505" y="11.3505" /> --> <!-- bot back, idle S, cover SW, E -->
+    <Frame framenum="11" duration="1" image="med_clr_00-0" w="2" h="2" x="1.1505" y="11.3505" />
+    <!-- <Frame framenum="12" duration="1" image="med_clr_00-12-1" w="24" h="52" x="0.07549953" y="11.8505" /> --> <!-- bot back, idle S -->
+	<Frame framenum="12" duration="1" image="med_clr_00-0" w="2" h="2" x="0.07549953" y="11.8505" />
+    <!-- <Frame framenum="13" duration="1" image="med_clr_00-13-1" w="32" h="56" x="-4.099501" y="21.6255" /> --> <!-- top l, idle SW -->
+    <Frame framenum="13" duration="1" image="med_clr_00-0" w="2" h="2" x="-4.099501" y="21.6255" />
+    <!-- <Frame framenum="14" duration="1" image="med_clr_00-14-1" w="32" h="60" x="2.7005" y="20.6505" /> --> <!-- top r, idle SW, cover SE, E -->
+    <Frame framenum="14" duration="1" image="med_clr_00-0" w="2" h="2" x="2.7005" y="20.6505" />
+    <!-- <Frame framenum="15" duration="1" image="med_clr_00-15-1" w="28" h="52" x="0.0255003" y="12.4255" /> --> <!-- bottom l, idle SW, cover S, ... -->
+    <Frame framenum="15" duration="1" image="med_clr_00-0" w="2" h="2" x="0.0255003" y="12.4255" />
+    <!-- <Frame framenum="16" duration="1" image="med_clr_00-16-1" w="28" h="52" x="0.0004997253" y="11.8755" /> --> <!-- bottom r, idle SW, ... -->
+    <Frame framenum="16" duration="1" image="med_clr_00-0" w="2" h="2" x="0.0004997253" y="11.8755" />
+    <!-- <Frame framenum="17" duration="1" image="med_clr_00-17-1" w="28" h="56" x="-3.6495" y="21.6255" /> --> <!-- unused? -->
+    <Frame framenum="17" duration="1" image="med_clr_00-0" w="2" h="2" x="-3.6495" y="21.6255" />
+    <!-- <Frame framenum="18" duration="1" image="med_clr_00-18-1" w="32" h="40" x="0.2004995" y="11.0505" /> --> <!-- unused? -->
+    <Frame framenum="18" duration="1" image="med_clr_00-0" w="2" h="2" x="0.2004995" y="11.0505" />
+    <!-- <Frame framenum="19" duration="1" image="med_clr_00-19-1" w="40" h="40" x="0.07550049" y="9.1255" /> --> <!-- top back, cover SW, S, ...-->
+    <Frame framenum="19" duration="1" image="med_clr_00-0" w="2" h="2" x="0.07550049" y="9.1255" />
+    <!-- <Frame framenum="20" duration="1" image="med_clr_00-20-1" w="32" h="44" x="-1.724501" y="8.2755" /> --> <!-- bot back, cover S, ... -->
+    <Frame framenum="20" duration="1" image="med_clr_00-0" w="2" h="2" x="-1.724501" y="8.2755" />
+    <!-- <Frame framenum="21" duration="1" image="med_clr_00-21-1" w="28" h="52" x="1.1005" y="16.7255" /> --> <!-- bot back, cover S, ... -->
+    <Frame framenum="21" duration="1" image="med_clr_00-0" w="2" h="2" x="1.1005" y="16.7255" />
+    <!-- <Frame framenum="22" duration="1" image="med_clr_00-22-1" w="40" h="44" x="0.1005001" y="12.0505" /> -->
+    <Frame framenum="22" duration="1" image="med_clr_00-0" w="2" h="2" x="0.1005001" y="12.0505" />
+    <!-- <Frame framenum="23" duration="1" image="med_clr_00-18-1" w="32" h="40" x="0.2004995" y="11.0505" /> --> <!-- bot back, cover SW, ... -->
+    <Frame framenum="23" duration="1" image="med_clr_00-0" w="2" h="2" x="0.2004995" y="11.0505" />
+    <!-- <Frame framenum="24" duration="1" image="med_clr_00-24-1" w="32" h="48" x="4.0505" y="14.9505" /> --> <!-- bot back, idle SE -->
+    <Frame framenum="24" duration="1" image="med_clr_00-0" w="2" h="2" x="4.0505" y="14.9505" />
+  </Symbol>
+  <Symbol name="grp_skt_clr_00">
+    <Frame framenum="0" duration="1" image="skt_clr_00-0" w="2" h="2" x="2.1005" y="12.7255" />
+    <Frame framenum="1" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="2" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="3" duration="1" image="skt_clr_00-0" w="2" h="2" x="0.7754993" y="12.2005" />
+    <Frame framenum="4" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="5" duration="1" image="skt_clr_00-0" w="2" h="2" x="3.300499" y="12.65" />
+    <Frame framenum="6" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="7" duration="1" image="skt_clr_00-0" w="2" h="2" x="5.3755" y="14.4" />
+    <Frame framenum="8" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="9" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="10" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="11" duration="1" image="skt_clr_00-0" w="2" h="2" x="-0.02449989" y="11.2755" />
+    <Frame framenum="12" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="13" duration="1" image="skt_clr_00-0" w="2" h="2" x="0.6504993" y="10.6255" />
+    <Frame framenum="14" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="15" duration="1" image="skt_clr_00-0" w="2" h="2" x="0.8754997" y="12.4005" />
+    <Frame framenum="16" duration="1" image="skt_clr_00-0" w="2" h="2" x="1.0005" y="12" />
+    <Frame framenum="17" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="18" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="19" duration="1" image="skt_clr_00-0" w="2" h="2" x="0.3255005" y="12.825" />
+    <Frame framenum="20" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="21" duration="1" image="skt_clr_00-0" w="2" h="2" x="-1.7745" y="9.2005" />
+    <Frame framenum="22" duration="1" image="skt_clr_00-0" w="2" h="2" x="-1.7745" y="12.6755" />
+    <Frame framenum="23" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="24" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="25" duration="1" image="skt_clr_00-0" w="2" h="2" x="-1.599501" y="12.7755" />
+    <Frame framenum="26" duration="1" image="skt_clr_00-0" w="2" h="2" x="-2.074501" y="13.9755" />
+    <Frame framenum="27" duration="1" image="skt_clr_00-0" w="2" h="2" x="-1.599501" y="12.7755" />
+    <Frame framenum="28" duration="1" image="skt_clr_00-0" w="2" h="2" x="-2.6245" y="12.0505" />
+    <Frame framenum="29" duration="1" image="skt_clr_00-0" w="2" h="2" x="0.4255009" y="11.5755" />
+    <Frame framenum="30" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="31" duration="1" image="skt_clr_00-0" w="2" h="2" x="5.3755" y="14.4" />
+    <Frame framenum="32" duration="1" image="skt_clr_00-0" w="2" h="2" x="-6.6245" y="-6.8745" />
+    <Frame framenum="33" duration="1" image="skt_clr_00-0" w="2" h="2" x="1.150499" y="11.7755" />
+    <Frame framenum="34" duration="1" image="skt_clr_00-0" w="2" h="2" x="3.525499" y="8.5255" />
+    <Frame framenum="35" duration="1" image="skt_clr_00-0" w="2" h="2" x="-0.1744995" y="12.7755" />
+  </Symbol>
+  <Symbol name="grp_hip_clr_00">
+    <Frame framenum="0" duration="1" image="hip_clr_00-0-1" w="40" h="32" x="0.4755001" y="-1.949499" />
+    <Frame framenum="1" duration="1" image="hip_clr_00-1-1" w="40" h="36" x="1.4755" y="-3.349501" />
+    <Frame framenum="2" duration="1" image="hip_clr_00-2-1" w="32" h="32" x="0.8255005" y="-2.449501" />
+    <Frame framenum="3" duration="1" image="hip_clr_00-3-1" w="36" h="36" x="-1.8745" y="-3.1495" />
+    <Frame framenum="4" duration="1" image="hip_clr_00-4-1" w="44" h="36" x="0.02549934" y="-1.199499" />
+    <Frame framenum="5" duration="1" image="hip_clr_00-5-1" w="36" h="40" x="-1.4245" y="-3.699501" />
+    <Frame framenum="6" duration="1" image="hip_clr_00-6-1" w="32" h="36" x="1.4005" y="-1.224501" />
+    <Frame framenum="7" duration="1" image="hip_clr_00-7-1" w="32" h="36" x="0.3004999" y="-2.1245" />
+  </Symbol>
+  <Symbol name="grp_lur_clr_00">
+    <Frame framenum="0" duration="1" image="lur_clr_00-0-1" w="24" h="52" x="1.5755" y="17.7755" />
+    <Frame framenum="1" duration="1" image="lur_clr_00-1-1" w="28" h="52" x="1.3505" y="17.8005" />
+    <Frame framenum="2" duration="1" image="lur_clr_00-2-1" w="28" h="56" x="0.8255005" y="16.3255" />
+    <Frame framenum="3" duration="1" image="lur_clr_00-3-1" w="24" h="48" x="1.1005" y="12.9255" />
+    <Frame framenum="4" duration="1" image="lur_clr_00-4-1" w="28" h="54" x="0.3255005" y="15.2005" />
+    <Frame framenum="5" duration="1" image="lur_clr_00-5-1" w="28" h="52" x="-1.9995" y="14.7255" />
+    <Frame framenum="6" duration="1" image="lur_clr_00-6-1" w="24" h="48" x="0.3505001" y="16.2755" />
+    <Frame framenum="7" duration="1" image="lur_clr_00-7-1" w="28" h="52" x="-1.4495" y="14.0505" />
+    <Frame framenum="8" duration="1" image="lur_clr_00-8-1" w="28" h="48" x="-0.02449989" y="15.2005" />
+    <Frame framenum="9" duration="1" image="lur_clr_00-9-1" w="28" h="54" x="0.8255005" y="16.9755" />
+    <Frame framenum="10" duration="1" image="lur_clr_00-10-1" w="28" h="52" x="0.8505001" y="17.4255" />
+    <Frame framenum="11" duration="1" image="lur_clr_00-11-1" w="28" h="48" x="1.6005" y="16.7755" />
+    <Frame framenum="12" duration="1" image="lur_clr_00-12-1" w="24" h="48" x="0.9005003" y="17.7505" />
+    <Frame framenum="13" duration="1" image="lur_clr_00-13-1" w="28" h="52" x="-2.9245" y="14.7505" />
+    <Frame framenum="14" duration="1" image="lur_clr_00-14-1" w="28" h="32" x="0.0255003" y="8.9255" />
+    <Frame framenum="15" duration="1" image="lur_clr_00-15-1" w="32" h="36" x="1.6005" y="3.3255" />
+  </Symbol>
+  <Symbol name="grp_llr_clr_00">
+    <Frame framenum="0" duration="1" image="llr_clr_00-0-1" w="20" h="44" x="1.3255" y="15.6505" />
+    <Frame framenum="1" duration="1" image="llr_clr_00-1-1" w="24" h="46" x="1.6005" y="16.1505" />
+    <Frame framenum="2" duration="1" image="llr_clr_00-2-1" w="20" h="48" x="-1.2745" y="11.6755" />
+    <Frame framenum="3" duration="1" image="llr_clr_00-3-1" w="24" h="44" x="1.9255" y="13.3255" />
+    <Frame framenum="4" duration="1" image="llr_clr_00-4-1" w="20" h="48" x="-1.0745" y="13.0505" />
+    <Frame framenum="5" duration="1" image="llr_clr_00-5-1" w="20" h="44" x="1.4755" y="12.4255" />
+    <Frame framenum="6" duration="1" image="llr_clr_00-6-1" w="24" h="44" x="-1.2745" y="14.3255" />
+    <Frame framenum="7" duration="1" image="llr_clr_00-7-1" w="20" h="40" x="0.7255001" y="11.9255" />
+    <Frame framenum="8" duration="1" image="llr_clr_00-8-1" w="24" h="48" x="-0.04950047" y="15.5005" />
+    <Frame framenum="9" duration="1" image="llr_clr_00-9-1" w="20" h="44" x="-0.6995001" y="15.5505" />
+    <Frame framenum="10" duration="1" image="llr_clr_00-10-1" w="20" h="36" x="0.3505001" y="10.8255" />
+    <Frame framenum="11" duration="1" image="llr_clr_00-11-1" w="24" h="40" x="-0.07450008" y="11.8755" />
+    <Frame framenum="12" duration="1" image="llr_clr_00-12-1" w="20" h="28" x="-0.8494997" y="7.8255" />
+    <Frame framenum="13" duration="1" image="llr_clr_00-13-1" w="24" h="40" x="1.0005" y="10.7505" />
+    <Frame framenum="14" duration="1" image="llr_clr_00-14-1" w="24" h="40" x="-0.1995001" y="8.7755" />
+    <Frame framenum="15" duration="1" image="llr_clr_00-15-1" w="24" h="50" x="1.1005" y="14.2005" />
+    <Frame framenum="16" duration="1" image="llr_clr_00-16-1" w="24" h="32" x="-0.1245003" y="5.275499" />
+    <Frame framenum="17" duration="1" image="llr_clr_00-17-1" w="24" h="32" x="-0.1245003" y="5.275499" />
+    <Frame framenum="18" duration="1" image="llr_clr_00-18-1" w="20" h="32" x="-0.4244995" y="8.8005" />
+    <Frame framenum="19" duration="1" image="llr_clr_00-19-1" w="28" h="32" x="-1.0245" y="9.1005" />
+    <Frame framenum="20" duration="1" image="llr_clr_00-20-1" w="24" h="28" x="0.6505003" y="2.5755" />
+  </Symbol>
+  <Symbol name="grp_ftr_clr_00">
+    <Frame framenum="0" duration="1" image="ftr_clr_00-0-1" w="20" h="24" x="-1.9245" y="5.9" />
+    <Frame framenum="1" duration="1" image="ftr_clr_00-1-1" w="20" h="24" x="-1.9245" y="5.9" />
+    <Frame framenum="2" duration="1" image="ftr_clr_00-2-1" w="20" h="24" x="1.6255" y="5.8755" />
+    <Frame framenum="3" duration="1" image="ftr_clr_00-3-1" w="28" h="20" x="-5.699501" y="3.95" />
+    <Frame framenum="4" duration="1" image="ftr_clr_00-4-1" w="32" h="20" x="-6.0245" y="3.2755" />
+    <Frame framenum="5" duration="1" image="ftr_clr_00-5-1" w="28" h="16" x="-6.2495" y="1.2505" />
+    <Frame framenum="6" duration="1" image="ftr_clr_00-6-1" w="28" h="20" x="-5.5495" y="2.2755" />
+    <Frame framenum="7" duration="1" image="ftr_clr_00-7-1" w="20" h="20" x="-2.7995" y="-0.5244999" />
+    <Frame framenum="8" duration="1" image="ftr_clr_00-8-1" w="20" h="26" x="-1.2995" y="2.2005" />
+    <Frame framenum="9" duration="1" image="ftr_clr_00-9-1" w="20" h="26" x="-1.2995" y="2.2005" />
+    <Frame framenum="10" duration="1" image="ftr_clr_00-10-1" w="24" h="20" x="-4.1495" y="3.625" />
+    <Frame framenum="11" duration="1" image="ftr_clr_00-11-1" w="32" h="20" x="-6.0245" y="3.025" />
+    <Frame framenum="12" duration="1" image="ftr_clr_00-12-1" w="32" h="20" x="-6.0245" y="3.025" />
+    <Frame framenum="13" duration="1" image="ftr_clr_00-13-1" w="32" h="20" x="-9.2745" y="0.6505003" />
+    <Frame framenum="14" duration="1" image="ftr_clr_00-14-1" w="28" h="20" x="-6.7745" y="-0.8745003" />
+    <Frame framenum="15" duration="1" image="ftr_clr_00-15-1" w="32" h="20" x="-7.974501" y="0.5504999" />
+    <Frame framenum="16" duration="1" image="ftr_clr_00-16-1" w="28" h="20" x="-5.0245" y="3.0505" />
+    <Frame framenum="17" duration="1" image="ftr_clr_00-17-1" w="22" h="28" x="1.4005" y="5.8755" />
+    <Frame framenum="18" duration="1" image="ftr_clr_00-18-1" w="24" h="28" x="-2.5245" y="5.8255" />
+  </Symbol>
+  <Symbol name="grp_cmp_clr_00">
+    <Frame framenum="0" duration="1" image="cmp_clr_00-0-1" w="72" h="60" x="0.675499" y="-10.7495" />
+    <Frame framenum="1" duration="1" image="cmp_clr_00-1-1" w="72" h="60" x="0.675499" y="-10.7495" />
+    <Frame framenum="2" duration="1" image="cmp_clr_00-2-1" w="70" h="52" x="-3.599499" y="-13.4995" />
+    <Frame framenum="3" duration="1" image="cmp_clr_00-3-1" w="68" h="52" x="-4.199501" y="-13.4995" />
+  </Symbol>
+  <Symbol name="grp_cmp_clr_01">
+    <Frame framenum="0" duration="1" image="cmp_clr_01-0-1" w="56" h="28" x="0.0004997253" y="0.0004997253" />
+    <Frame framenum="1" duration="1" image="cmp_clr_01-0-1" w="56" h="28" x="0.0004997253" y="0.0004997253" />
+    <Frame framenum="2" duration="1" image="cmp_clr_01-2-1" w="52" h="40" x="-0.2994995" y="-8.099499" />
+    <Frame framenum="3" duration="1" image="cmp_clr_01-2-1" w="52" h="40" x="-0.2994995" y="-8.099499" />
+    <Frame framenum="4" duration="1" image="cmp_clr_01-4-1" w="76" h="40" x="-0.04949951" y="12.6005" />
+  </Symbol>
+  <Symbol name="grp_srg_clr_00">
+    <Frame framenum="0" duration="1" image="srg_clr_00-0-1" w="54" h="20" x="-0.8994999" y="-0.02449989" />
+    <Frame framenum="1" duration="1" image="srg_clr_00-1-1" w="54" h="20" x="-0.8244991" y="-0.02449989" />
+    <Frame framenum="2" duration="1" image="srg_clr_00-2-1" w="48" h="20" x="-2.6245" y="-0.02449989" />
+    <Frame framenum="3" duration="1" image="srg_clr_00-3-1" w="32" h="20" x="8.1505" y="-0.02449989" />
+    <Frame framenum="4" duration="1" image="srg_clr_00-4-1" w="34" h="20" x="-9.324501" y="-0.02449989" />
+    <Frame framenum="5" duration="1" image="srg_clr_00-5-1" w="28" h="20" x="9.125" y="-0.02449989" />
+    <Frame framenum="6" duration="1" image="srg_clr_00-6-1" w="36" h="20" x="-9.4995" y="-0.02449989" />
+    <Frame framenum="7" duration="1" image="srg_clr_00-2-1" w="48" h="20" x="-2.6245" y="-0.02449989" />
+    <Frame framenum="8" duration="1" image="srg_clr_00-8-1" w="28" h="20" x="9.075" y="-0.02449989" />
+    <Frame framenum="9" duration="1" image="srg_clr_00-9-1" w="28" h="20" x="7.725" y="-0.02449989" />
+    <Frame framenum="10" duration="1" image="srg_clr_00-10-1" w="32" h="20" x="-10.2495" y="-0.02449989" />
+  </Symbol>
+  <Symbol name="grp_srg_clr_01">
+    <Frame framenum="0" duration="1" image="srg_clr_01-0-1" w="32" h="20" x="-1.7495" y="-0.02449989" />
+    <Frame framenum="1" duration="1" image="srg_clr_01-1-1" w="32" h="20" x="0.7504997" y="-0.02449989" />
+    <Frame framenum="2" duration="1" image="srg_clr_01-2-1" w="32" h="20" x="-0.3745003" y="-0.02449989" />
+    <Frame framenum="3" duration="1" image="srg_clr_01-3-1" w="20" h="20" x="3.1755" y="-0.02449989" />
+    <Frame framenum="4" duration="1" image="srg_clr_01-4-1" w="24" h="20" x="-5.2495" y="-0.02449989" />
+    <Frame framenum="5" duration="1" image="srg_clr_01-5-1" w="20" h="20" x="5.3" y="-0.02449989" />
+    <Frame framenum="6" duration="1" image="srg_clr_01-6-1" w="24" h="20" x="-3.0245" y="-0.02449989" />
+    <Frame framenum="7" duration="1" image="srg_clr_01-7-1" w="76" h="28" x="22.2005" y="-3.474501" />
+    <Frame framenum="8" duration="1" image="srg_clr_01-8-1" w="52" h="24" x="19.95" y="-1.6745" />
+    <Frame framenum="9" duration="1" image="srg_clr_01-9-1" w="24" h="20" x="4.65" y="-0.02449989" />
+    <Frame framenum="10" duration="1" image="srg_clr_01-10-1" w="24" h="20" x="-4.9245" y="-0.02449989" />
+  </Symbol>
+  <Symbol name="grp_cotl_clr_00">
+    <Frame framenum="0" duration="1" image="cotl_clr_00-0" w="2" h="2" x="0.2755013" y="32.625" />
+    <Frame framenum="1" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.149502" y="30.9005" />
+    <Frame framenum="2" duration="1" image="cotl_clr_00-0" w="2" h="2" x="0.2504997" y="34.2" />
+    <Frame framenum="3" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.775501" y="37.3" />
+    <Frame framenum="4" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.400499" y="39.075" />
+    <Frame framenum="5" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.725498" y="33.975" />
+    <Frame framenum="6" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.9744987" y="30.6755" />
+    <Frame framenum="7" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.2994995" y="33.1" />
+    <Frame framenum="8" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.1494999" y="34.275" />
+    <Frame framenum="9" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.175499" y="37.7" />
+    <Frame framenum="10" duration="1" image="cotl_clr_00-0" w="2" h="2" x="24.0505" y="27.65" />
+    <Frame framenum="11" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.0005" y="29.2505" />
+    <Frame framenum="12" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.9755" y="29.6005" />
+    <Frame framenum="13" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.0255" y="30.9" />
+    <Frame framenum="14" duration="1" image="cotl_clr_00-0" w="2" h="2" x="24.0505" y="30.05" />
+    <Frame framenum="15" duration="1" image="cotl_clr_00-0" w="2" h="2" x="24.6505" y="27.35" />
+    <Frame framenum="16" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.2255" y="26.9755" />
+    <Frame framenum="17" duration="1" image="cotl_clr_00-0" w="2" h="2" x="21.2505" y="29.0505" />
+    <Frame framenum="18" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.5255" y="31.775" />
+    <Frame framenum="19" duration="1" image="cotl_clr_00-0" w="2" h="2" x="23.3255" y="30.725" />
+    <Frame framenum="20" duration="1" image="cotl_clr_00-0" w="2" h="2" x="25.0255" y="25" />
+    <Frame framenum="21" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.7505" y="28.7505" />
+    <Frame framenum="22" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.2005" y="34.15" />
+    <Frame framenum="23" duration="1" image="cotl_clr_00-0" w="2" h="2" x="25.4505" y="31.975" />
+    <Frame framenum="24" duration="1" image="cotl_clr_00-0" w="2" h="2" x="27.8505" y="28.025" />
+    <Frame framenum="25" duration="1" image="cotl_clr_00-0" w="2" h="2" x="25.8255" y="24.525" />
+    <Frame framenum="26" duration="1" image="cotl_clr_00-0" w="2" h="2" x="21.2255" y="29.3005" />
+    <Frame framenum="27" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.7255" y="33.25" />
+    <Frame framenum="28" duration="1" image="cotl_clr_00-0" w="2" h="2" x="25.2755" y="29.925" />
+    <Frame framenum="29" duration="1" image="cotl_clr_00-0" w="2" h="2" x="27.7505" y="26.9" />
+    <Frame framenum="30" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.1005" y="24.525" />
+    <Frame framenum="31" duration="1" image="cotl_clr_00-0" w="2" h="2" x="21.6005" y="22.2505" />
+    <Frame framenum="32" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.9005" y="26.35" />
+    <Frame framenum="33" duration="1" image="cotl_clr_00-0" w="2" h="2" x="24.0005" y="26.05" />
+    <Frame framenum="34" duration="1" image="cotl_clr_00-0" w="2" h="2" x="24.1255" y="27.4" />
+    <Frame framenum="35" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.6005" y="24.225" />
+    <Frame framenum="36" duration="1" image="cotl_clr_00-0" w="2" h="2" x="21.4755" y="22.1255" />
+    <Frame framenum="37" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.8505" y="26.225" />
+    <Frame framenum="38" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.1005" y="23.525" />
+    <Frame framenum="39" duration="1" image="cotl_clr_00-0" w="2" h="2" x="23.5005" y="28.175" />
+    <Frame framenum="40" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-4.649498" y="36.975" />
+    <Frame framenum="41" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.07449913" y="34.6505" />
+    <Frame framenum="42" duration="1" image="cotl_clr_00-0" w="2" h="2" x="3.7005" y="37.85" />
+    <Frame framenum="43" duration="1" image="cotl_clr_00-0" w="2" h="2" x="7.7505" y="38.975" />
+    <Frame framenum="44" duration="1" image="cotl_clr_00-0" w="2" h="2" x="9.4505" y="42.275" />
+    <Frame framenum="45" duration="1" image="cotl_clr_00-0" w="2" h="2" x="7.8505" y="36.375" />
+    <Frame framenum="46" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.150499" y="34.3005" />
+    <Frame framenum="47" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.3244991" y="36.975" />
+    <Frame framenum="48" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-3.349499" y="39.2" />
+    <Frame framenum="49" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-5.224499" y="43.4" />
+    <Frame framenum="50" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.0245" y="27.2" />
+    <Frame framenum="51" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.0755" y="24.975" />
+    <Frame framenum="52" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.8755" y="30.375" />
+    <Frame framenum="53" duration="1" image="cotl_clr_00-0" w="2" h="2" x="7.550499" y="33.1" />
+    <Frame framenum="54" duration="1" image="cotl_clr_00-0" w="2" h="2" x="9.5755" y="37.35" />
+    <Frame framenum="55" duration="1" image="cotl_clr_00-0" w="2" h="2" x="4.2505" y="26.5" />
+    <Frame framenum="56" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.4755" y="26.2" />
+    <Frame framenum="57" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.07449913" y="29.525" />
+    <Frame framenum="58" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-3.9995" y="33.825" />
+    <Frame framenum="59" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-6.199501" y="36.025" />
+    <Frame framenum="60" duration="1" image="cotl_clr_00-0" w="2" h="2" x="0.9754982" y="21.1255" />
+    <Frame framenum="61" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.175499" y="26.275" />
+    <Frame framenum="62" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.3255" y="32.7" />
+    <Frame framenum="63" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.425499" y="29.1" />
+    <Frame framenum="64" duration="1" image="cotl_clr_00-0" w="2" h="2" x="0.4505005" y="22.3005" />
+    <Frame framenum="65" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.199501" y="25.2" />
+    <Frame framenum="66" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-2.599499" y="33.05" />
+    <Frame framenum="67" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-3.9245" y="30.1" />
+    <Frame framenum="68" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.2255" y="25.0255" />
+    <Frame framenum="69" duration="1" image="cotl_clr_00-0" w="2" h="2" x="18.6755" y="25.0255" />
+    <Frame framenum="70" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.2755" y="28.3005" />
+    <Frame framenum="71" duration="1" image="cotl_clr_00-0" w="2" h="2" x="21.6005" y="24.5755" />
+    <Frame framenum="72" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.9505" y="21.6505" />
+    <Frame framenum="73" duration="1" image="cotl_clr_00-0" w="2" h="2" x="19.4755" y="23.6005" />
+    <Frame framenum="74" duration="1" image="cotl_clr_00-0" w="2" h="2" x="20.9255" y="30.8255" />
+    <Frame framenum="75" duration="1" image="cotl_clr_00-0" w="2" h="2" x="22.7255" y="29.2755" />
+    <Frame framenum="76" duration="1" image="cotl_clr_00-0" w="2" h="2" x="26.0005" y="23.5005" />
+    <Frame framenum="77" duration="1" image="cotl_clr_00-0" w="2" h="2" x="26.4755" y="27.4005" />
+    <Frame framenum="78" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.1755" y="25.2755" />
+    <Frame framenum="79" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.7005" y="27.45" />
+    <Frame framenum="80" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.0755" y="19.8255" />
+    <Frame framenum="81" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.1255" y="21.4005" />
+    <Frame framenum="82" duration="1" image="cotl_clr_00-0" w="2" h="2" x="31.6505" y="18.6505" />
+    <Frame framenum="83" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.2255" y="24.6255" />
+    <Frame framenum="84" duration="1" image="cotl_clr_00-0" w="2" h="2" x="26.1255" y="22.8005" />
+    <Frame framenum="85" duration="1" image="cotl_clr_00-0" w="2" h="2" x="26.0005" y="24.9005" />
+    <Frame framenum="86" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.875" y="34.1" />
+    <Frame framenum="87" duration="1" image="cotl_clr_00-0" w="2" h="2" x="28.9255" y="25.75" />
+    <Frame framenum="88" duration="1" image="cotl_clr_00-0" w="2" h="2" x="32.05" y="19.7755" />
+    <Frame framenum="89" duration="1" image="cotl_clr_00-0" w="2" h="2" x="29.05" y="22.675" />
+    <Frame framenum="90" duration="1" image="cotl_clr_00-0" w="2" h="2" x="26.1" y="34.95" />
+    <Frame framenum="91" duration="1" image="cotl_clr_00-0" w="2" h="2" x="27.15" y="27.775" />
+    <Frame framenum="92" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.399502" y="35.9" />
+    <Frame framenum="93" duration="1" image="cotl_clr_00-0" w="2" h="2" x="1.400501" y="41.925" />
+    <Frame framenum="94" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.3755" y="50.075" />
+    <Frame framenum="95" duration="1" image="cotl_clr_00-0" w="2" h="2" x="3.475502" y="43.65" />
+    <Frame framenum="96" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.2244987" y="34.2255" />
+    <Frame framenum="97" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.9995" y="41.05" />
+    <Frame framenum="98" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-3.524498" y="50.35" />
+    <Frame framenum="99" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-4.974499" y="44.1" />
+    <Frame framenum="100" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.1255" y="27.775" />
+    <Frame framenum="101" duration="1" image="cotl_clr_00-0" w="2" h="2" x="3.0755" y="37.05" />
+    <Frame framenum="102" duration="1" image="cotl_clr_00-0" w="2" h="2" x="2.8505" y="42.2" />
+    <Frame framenum="103" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-0.8995018" y="38.25" />
+    <Frame framenum="104" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-1.524502" y="28.7" />
+    <Frame framenum="105" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-3.849499" y="37.35" />
+    <Frame framenum="106" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-4.2495" y="42.475" />
+    <Frame framenum="107" duration="1" image="cotl_clr_00-0" w="2" h="2" x="-2.4245" y="37.05" />
+  </Symbol>
+  <Symbol name="grp_tzr_clr_00">
+    <Frame framenum="0" duration="1" image="tzr_clr_00-0-1" w="24" h="48" x="0.0255003" y="-7.0245" />
+  </Symbol>
+</Build>

@@ -1,0 +1,5 @@
+name = Luna4s
+author = Mobbstar, Luna4s
+version = 0.1
+icon = gui/icons/modicon_luna4s.png
+workshop = 

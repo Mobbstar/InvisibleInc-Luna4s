@@ -1,0 +1,5 @@
+<Build name="luna4s_face.fla">
+  <Symbol name="head">
+    <Frame framenum="0" duration="1" image="head-0" w="1" h="1" x="0.0" y="0.0" />
+  </Symbol>
+</Build>

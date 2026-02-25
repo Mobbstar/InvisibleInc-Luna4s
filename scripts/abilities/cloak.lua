@@ -8,6 +8,7 @@ local _M = {
     name = STRINGS.ABILITIES.CLOAK,
     profile_icon = "gui/icons/item_icons/items_icon_small/icon-item_invisicloak_small.png",
     alwaysShow = true,
+    HUDpriority = 5
 }
 
 local function getItemUnit(userUnit) -- assumption: only one per agent

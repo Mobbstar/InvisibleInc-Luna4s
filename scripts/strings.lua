@@ -22,6 +22,7 @@ REASON = {
 ABILITIES = {
     UNCLOAK = "Uncloak",
     CLOAK_DESC = "Any currently active cloaks will end. Does not trigger augments.",
+    CHROMAKEY = "Chroma Key",
 },
 
 -- TOOLTIPS = {

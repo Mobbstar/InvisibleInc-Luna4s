@@ -36,6 +36,7 @@ local function init(modApi)
     include(scriptPath .. "/monkeypatches/simunit")
     include(scriptPath .. "/monkeypatches/simengine")
     include(scriptPath .. "/monkeypatches/stealCredits")
+    include(scriptPath .. "/monkeypatches/agent_panel")
 end
 
 local function FindModOption(mod_options, modname, optionname)
@@ -93,6 +94,7 @@ local function load(modApi, options, params, mod_options)
     include(scriptPath .. "/banter")( modApi )
 
     modApi:addAbilityDef("luna4s_cloak", scriptPath .. "/abilities/cloak")
+    modApi:addAbilityDef("luna4s_chromakey", scriptPath .. "/abilities/chromakey")
 
     if modApi.addTransistorDef then -- Transistor pt2
         local transistordefs = include(scriptPath .. "/transistordefs")
@@ -100,6 +102,8 @@ local function load(modApi, options, params, mod_options)
             modApi:addDaemonAbility(k,v)
         end
     end
+
+    modApi:insertUIElements(include(scriptPath .. "/screen_inserts"))
 end
 
 local function unload(modApi, options)

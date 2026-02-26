@@ -10,9 +10,9 @@ Adds Luna4s (Archive) to rescueable agents.]],
 },
 
 ITEMS = {
-    AUG_CLOAK = "Refraction cloak",
+    AUG_CLOAK = "Shimmer Rig",
     AUG_CLOAK_TIP = "Renders the user invisible until out of charge. Gains charge when looting a guard or safe. While in use, loses charge when moving or ending turn.",
-    AUG_CLOAK_FLAVOR = "Hoot.",
+    AUG_CLOAK_FLAVOR = "Rather than the traditional method of bending light around the user, this short-burst cloak actually redirects light directly into the viewers' eyes.",
 },
 
 REASON = {

@@ -20,14 +20,8 @@ local function getItemUnit(userUnit) -- assumption: only one per agent
 end
 
 function _M:addCharge(sim, delta)
-    delta = delta or 1
-    self.itemUnit:getTraits().ammo = self.itemUnit:getTraits().ammo + delta
-    if self.itemUnit:getTraits().ammo < 0 then
-        self.itemUnit:getTraits().ammo = 0
-    elseif self.itemUnit:getTraits().ammo > self.itemUnit:getTraits().maxAmmo then
-        self.itemUnit:getTraits().ammo = self.itemUnit:getTraits().maxAmmo
-    end
-	if self.userUnit and delta > 0 then   -- adding an indicator
+
+	if delta and self.userUnit and delta > 0 then   -- adding an indicator
 		local x0,y0 = self.userUnit:getLocation()
 		local txt = string.format("+%s Charge", delta)
 		local rand = sim:nextRand(1,20)
@@ -39,6 +33,14 @@ function _M:addCharge(sim, delta)
 		sim:dispatchEvent( simdefs.EV_UNIT_FLOAT_TXT,
 			{ txt= txt, x=x0,y=y0 } )
 	end
+	
+    delta = delta or 1
+    self.itemUnit:getTraits().ammo = self.itemUnit:getTraits().ammo + delta
+    if self.itemUnit:getTraits().ammo < 0 then
+        self.itemUnit:getTraits().ammo = 0
+    elseif self.itemUnit:getTraits().ammo > self.itemUnit:getTraits().maxAmmo then
+        self.itemUnit:getTraits().ammo = self.itemUnit:getTraits().maxAmmo
+    end
 end
 
 function _M:refreshCloakDuration(value)
@@ -83,7 +85,7 @@ function _M:executeAbility(sim, abilityOwner, ...)
 
     self.userUnit:getTraits().luna4s_activating = true
     local result = {useInvisiCloak.executeAbility(self, sim, self.itemUnit, ...)}
-    self:addCharge(sim,1) -- hack against inventory.useItem in base ability
+    self:addCharge(sim) -- hack against inventory.useItem in base ability
     self.userUnit:getTraits().luna4s_activating = nil
     self.userUnit:getTraits().luna4s_active = true
     self:refreshCloakDuration()

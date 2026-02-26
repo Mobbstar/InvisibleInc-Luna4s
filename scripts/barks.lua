@@ -103,8 +103,10 @@ local LUNA4S = {} --------------------------------------------------------------
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
--- LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee, {
--- }}
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee / 2, { -- div 2 due to lack of variety
+	"Not cute!",
+	"Nuh uh!",
+}}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}
 -- LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow, {
@@ -116,9 +118,9 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 }}
 -- LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- }}
-LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj / 2, { -- div 2 due to lack of variety
-	"I keep getting the Endians wrong.", -- picross
-}}
+-- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj / 2, { -- div 2 due to lack of variety
+-- 	"I keep getting the Endians wrong.", -- picross
+-- }}
 -- LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot, {
 -- }}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil

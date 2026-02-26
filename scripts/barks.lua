@@ -187,6 +187,7 @@ GUARDS.LINES[_M.CFO] = {
 }
 GUARDS.LINES[_M.SCIENTIST] = { 
 	"I could be at the forefront of motion capture right now…",
+	"How can it be this hard to get a wire through a hole?" -- ethernet cable trouble
 }
 GUARDS.BANTERS = {
 	{

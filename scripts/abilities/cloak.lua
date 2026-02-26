@@ -19,16 +19,16 @@ local function getItemUnit(userUnit) -- assumption: only one per agent
 	end
 end
 
-function _M:addCharge(sim, delta)
+function _M:addCharge(sim, delta, float)
 
 	if delta and self.userUnit and delta > 0 then   -- adding an indicator
 		local x0,y0 = self.userUnit:getLocation()
-		local txt = string.format("+%s Charge", delta)
+		local txt = string.format(STRINGS.LUNA4S.ABILITIES.CLOAK_CHARGE_GAIN, delta)
 		local rand = sim:nextRand(1,20)
 		if rand == 20 then
-			txt = string.format("+%s Shiny", delta)
+			txt = string.format(STRINGS.LUNA4S.ABILITIES.CLOAK_CHARGE_GAIN_RARE_1, delta)
 		elseif rand == 1 then
-			txt = string.format("Shiny Get", delta)
+			txt = TRINGS.LUNA4S.ABILITIES.CLOAK_CHARGE_GAIN_RARE_2
 		end
 		sim:dispatchEvent( simdefs.EV_UNIT_FLOAT_TXT,
 			{ txt= txt, x=x0,y=y0 } )

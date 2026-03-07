@@ -22,7 +22,9 @@ function _M:throw(throwingUnit, targetCell)
 
     self:getTraits().deployed = true
     self:getTraits().mainframe_item = true
+    self:getTraits().mainframe_status = "inactive"
     sim:triggerEvent(simdefs.TRG_UNIT_DEPLOYED, {unit = self})
+    sim:dispatchEvent(simdefs.EV_UNIT_REFRESH, {unit = self})
 
     sim:processReactions()
 end
@@ -69,7 +71,9 @@ function _M:onWarp(sim, oldcell, cell)
         sim:removeTrigger(simdefs.TRG_UNIT_WARP, self)
         sim:removeTrigger(simdefs.TRG_START_TURN, self)
         sim:removeTrigger(simdefs.TRG_UNIT_PICKEDUP, self)
+        self:getTraits().mainframe_status = nil
         self:getTraits().mainframe_item = nil
+        self:getTraits().deployed = nil
     end
 end
 

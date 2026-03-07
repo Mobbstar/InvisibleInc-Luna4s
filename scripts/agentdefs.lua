@@ -53,7 +53,7 @@ return {
         skills = util.extend(commondefs.DEFAULT_AGENT_SKILLS) {},
         startingSkills = {},
         abilities = util.tconcat({"sprint", "luna4s_chromakey"}, commondefs.DEFAULT_AGENT_ABILITIES),
-        upgrades = {"augment_luna4s_cloak", "item_tazer"},
+        upgrades = {"augment_luna4s_cloak", "item_luna4s_silencegrenade"},
         children = {},
         logs = {}
     },

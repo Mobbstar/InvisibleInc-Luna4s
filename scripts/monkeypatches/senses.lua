@@ -3,7 +3,7 @@ local simquery = include("sim/simquery")
 
 local processSoundTrigger = senses.processSoundTrigger
 senses.processSoundTrigger = function(self, sim, evData, ...)
-    if simquery.luna4s_isUnitSilenced and not simquery.luna4s_isUnitSilenced(sim, self.unit, evData.x, evData.y) then
+    if simquery.luna4s_isUnitSilenced and simquery.luna4s_isUnitSilenced(sim, self.unit, evData.x, evData.y) then
         return
     end
 

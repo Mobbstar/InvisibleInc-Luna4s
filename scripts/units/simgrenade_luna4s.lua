@@ -50,16 +50,30 @@ function _M:activate(sim)
     local x, y = self:getLocation()
     local cells = self:getExplodeCells()
     self:getTraits().mainframe_status = "active"
-    self:getTraits().luna4s_silenceRadius = 2
-    self:getTraits().hasHearing = true
+    self:getTraits().luna4s_silenceRadius = 4
+    self:getTraits().hasHearing = false
     player:addCPUs(-(self:getTraits().PWRuse or 0), sim, x, y)
     sim:dispatchEvent(simdefs.EV_UNIT_ACTIVATE, {unit = self, cells = cells})
+
+    for i, camUnit in pairs(sim:getAllUnits()) do
+        if camUnit and camUnit:getTraits().hasAttenuationHearing then
+			camUnit:getTraits().hadAttenuationHearing = true
+			camUnit:getTraits().hasAttenuationHearing = nil
+		end
+	end
 end
 
 function _M:deactivate(sim)
     self:getTraits().mainframe_status = "inactive"
     self:getTraits().luna4s_silenceRadius = nil
     self:getTraits().hasHearing = false
+
+    for i, camUnit in pairs(sim:getAllUnits()) do
+        if camUnit and camUnit:getTraits().hadAttenuationHearing then
+			camUnit:getTraits().hasAttenuationHearing = true
+			camUnit:getTraits().hadAttenuationHearing = nil
+		end
+	end
 end
 
 function _M:onWarp(sim, oldcell, cell)

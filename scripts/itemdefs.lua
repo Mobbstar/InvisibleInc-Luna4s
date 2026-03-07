@@ -43,7 +43,7 @@ local tool_templates = {
         traits = {
             PWRuse = 1,
             CPUperTurn = 1,
-            range = 2,
+            range = 4,
             targeting_ignoreLOS = true,
             agent_filter = true
         },

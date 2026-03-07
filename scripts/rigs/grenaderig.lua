@@ -42,7 +42,7 @@ function _M:onSimEvent(ev, eventType, eventData)
 			local x0, y0 = unit:getLocation()
 			MOAIFmodDesigner.playSound(unit:getSounds().activate, nil, nil, {x0, y0, 0}, nil)
 		end
-		self._boardRig:hiliteCells(eventData.cells, {247 / 255, 247 / 255, 142 / 255, 0.3}, 60)
+		self._boardRig:hiliteCells(eventData.cells, {1, 1, 1, 0.3}, 60)
 	end
 end
 

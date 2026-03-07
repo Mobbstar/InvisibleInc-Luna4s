@@ -35,12 +35,10 @@ local function init(modApi)
     local scriptPath = modApi:getScriptPath()
     include(scriptPath .. "/monkeypatches/senses")
     include(scriptPath .. "/monkeypatches/simunit")
-    include(scriptPath .. "/monkeypatches/simplayer")
     include(scriptPath .. "/monkeypatches/simquery")
     include(scriptPath .. "/monkeypatches/simengine")
     include(scriptPath .. "/monkeypatches/stealCredits")
     include(scriptPath .. "/monkeypatches/agent_panel")
-    include(scriptPath .. "/monkeypatches/boardrig")
 end
 
 local function FindModOption(mod_options, modname, optionname)
@@ -79,6 +77,10 @@ local function load(modApi, options, params, mod_options)
     -- modApi:addTooltipDef( include( scriptPath .. "/tooltipdefs" ) )
 
     include(scriptPath .. "/units/simgrenade_luna4s")
+
+    do -- registering rigs is hacky…
+        package.loaded["gameplay/grenaderig_luna4s"] = include(scriptPath .. "/rigs/grenaderig")
+    end
 
     local skip_wireframes = FindModOption(mod_options, "Mods Combo by Shirsh", "noWireframes")
     local mod_animdefs = include(scriptPath .. "/animdefs")(skip_wireframes)

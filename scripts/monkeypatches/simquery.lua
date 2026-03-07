@@ -10,19 +10,20 @@ simquery.canHear = function(unit, ...)
     return unpack(result)
 end
 
-simquery.luna4s_isLocationSilenced = function(sim, x0, y0, x1, y1)
-    assert(x0)
-    assert(y0)
+simquery.luna4s_isUnitSilenced = function(sim, hearingUnit, x1, y1)
+    assert(hearingUnit)
+    local x0, y0 = hearingUnit:getLocation()
+    local player = hearingUnit:getPlayerOwner()
 
     for i, silencerUnit in pairs(sim:getAllUnits()) do
-        local silenceRadius = silencerUnit and silencerUnit:getTraits().luna4s_silenceRadius
-        if silenceRadius then
+        if silencerUnit and silencerUnit:getTraits().luna4s_silenceRadius and silencerUnit:getPlayerOwner() ~= player then
+            local silenceRadius = silencerUnit:getTraits().luna4s_silenceRadius
             local x2, y2 = silencerUnit:getLocation()
             if x2 and y2 then
-                if mathutil.distSqr2d(x0, y0, x2, y2) < silenceRadius then
+                if mathutil.dist2d(x0, y0, x2, y2) <= silenceRadius then
                     return false
                 end
-                if x1 and y1 and mathutil.distSqr2d(x1, y1, x2, y2) < silenceRadius then
+                if x1 and y1 and mathutil.dist2d(x1, y1, x2, y2) <= silenceRadius then
                     return false
                 end
             end
@@ -30,10 +31,4 @@ simquery.luna4s_isLocationSilenced = function(sim, x0, y0, x1, y1)
     end
 
     return true
-end
-
-simquery.luna4s_isUnitSilenced = function(sim, hearingUnit, ...)
-    assert(hearingUnit)
-    local x0, y0 = hearingUnit:getLocation()
-    return simquery.luna4s_isLocationSilenced(sim, x0, y0, ...)
 end

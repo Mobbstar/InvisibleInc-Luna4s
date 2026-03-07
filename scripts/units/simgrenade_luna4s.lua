@@ -100,18 +100,7 @@ function _M:getExplodeCells()
     local cells = {currentCell}
     if self:getTraits().range then
         local sim = self:getSim()
-        -- TODO: ensure this matches with the throw preview
-        -- cells = simquery.rasterCircle(sim, x0, y0, self:getTraits().range)
-
-        local fillCells = simquery.fillCircle(sim, x0, y0, self:getTraits().range, 0)
-        for i, cell in ipairs(fillCells) do
-            if cell ~= currentCell then
-                local raycastX, raycastY = sim:getLOS():raycast(x0, y0, cell.x, cell.y)
-                if raycastX == cell.x and raycastY == cell.y then
-                    table.insert(cells, cell)
-                end
-            end
-        end
+        cells = simquery.fillCircle(sim, x0, y0, self:getTraits().range, 0)
     end
     return cells
 end

@@ -18,39 +18,38 @@ local tool_templates = {
     },
     item_luna4s_silencegrenade = util.extend(commondefs.item_template) {
         type = "simgrenade_luna4s",
-        -- TODO: custom rig to indicate status better?
         name = STRINGS.LUNA4S.ITEMS.SILENCE_GRENADE,
         desc = STRINGS.LUNA4S.ITEMS.SILENCE_GRENADE_TIP,
         flavor = STRINGS.LUNA4S.ITEMS.SILENCE_GRENADE_FLAVOR,
-        ITEM_LIST = true,
         profile_icon = "gui/icons/item_icons/items_icon_small/icon-crybaby_small.png",
         profile_icon_100 = "gui/icons/item_icons/crybaby.png",
         kanim = "kanim_stickycam",
+        rig = "grenaderig_luna4s",
         uses_mainframe = {
             toggle = {
                 name = STRINGS.LUNA4S.ABILITIES.SILENCE_GRENADE_TOGGLE,
                 tooltip = STRINGS.LUNA4S.ABILITIES.SILENCE_GRENADE_TOGGLE_TIP,
                 fn = "toggle",
                 canToggle = function(unit)
-                    if unit:getTraits().PWRuse and unit:getSim():getPC():getCpus() < unit:getTraits().PWRuse then
+                    if unit:getTraits().mainframe_status ~= "active" and unit:getTraits().PWRuse and unit:getSim():getPC():getCpus() < unit:getTraits().PWRuse then
                         return false, STRINGS.UI.REASON.NOT_ENOUGH_PWR
                     end
                     return true
                 end
             }
         },
-        abilities = {"carryable", "recharge", "throw"},
+        abilities = {"carryable", "throw"},
         sounds = {activate = "SpySociety/Grenades/stickycam_deploy", bounce = "SpySociety/Grenades/bounce"},
         traits = {
-            PWRuse = 2,
-            CPUperTurn = 2,
-            disposable = false,
+            PWRuse = 1,
+            CPUperTurn = 1,
             range = 2,
             targeting_ignoreLOS = true,
             agent_filter = true
         },
         value = 400,
-        floorWeight = 2,
+        -- floorWeight = 2,
+        -- ITEM_LIST = true,
         locator = true
     }
 }

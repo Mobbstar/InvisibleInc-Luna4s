@@ -37,7 +37,6 @@ local function init(modApi)
     include(scriptPath .. "/monkeypatches/simengine")
     include(scriptPath .. "/monkeypatches/stealCredits")
     include(scriptPath .. "/monkeypatches/agent_panel")
-    include(scriptPath .. "/monkeypatches/world_sounds")
 end
 
 local function FindModOption(mod_options, modname, optionname)

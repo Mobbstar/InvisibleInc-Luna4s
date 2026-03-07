@@ -12,3 +12,15 @@ simengine.moveUnit = function(self, unit, ...)
 
     return unpack(result)
 end
+
+
+local simquery = include("sim/simquery")
+local emitSound = simengine.emitSound
+simengine.emitSound = function(self, sound, x0, y0, unit, altVisTiles)
+    if unit and unit:getSim() then
+		if simquery.luna4s_isUnitSilenced(unit:getSim(),unit) then
+			return
+		end
+    end
+	emitSound(self, sound, x0, y0, unit, altVisTiles)
+end

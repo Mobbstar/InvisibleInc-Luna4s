@@ -65,4 +65,13 @@ return function(modApi)
             },
         })
 
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, DRACO},
+            dialogue = {
+                {LUNA4S, "Banu Haqim?"},
+                {DRACO, "I know not what you speak of, haunted one."},
+            },
+        })
+
 end

@@ -12,6 +12,10 @@ end
 
 simquery.luna4s_isUnitSilenced = function(sim, hearingUnit, x1, y1)
     assert(hearingUnit)
+    if hearingUnit:getTraits().luna4s_ignoreNextSound == true then
+        return true
+    end
+
     local x0, y0 = hearingUnit:getLocation()
 
     for i, silencerUnit in pairs(sim:getAllUnits()) do

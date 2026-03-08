@@ -66,7 +66,7 @@ function _M:deactivate(sim)
     self:getTraits().mainframe_status = "inactive"
     self:getTraits().luna4s_silenceRadius = nil
 
-    for i, camUnit in pairs(sim:getAllUnits()) do
+    for i, camUnit in pairs(sim:getAllUnits()) do -- assumption: only one item that does this
         if camUnit and camUnit:getTraits().hadAttenuationHearing then
 			camUnit:getTraits().hasAttenuationHearing = true
 			camUnit:getTraits().hadAttenuationHearing = nil

@@ -34,6 +34,7 @@ return function(modApi)
     local DALL = "tbw_dall"
     local RION = "tbw_rion"
     local LUNA4S = "luna4s"
+    local IMPOSTER = "IMPOSTER"
 
     -- By: Mobbstar;
     modApi:addBanter({
@@ -41,6 +42,26 @@ return function(modApi)
             dialogue = {
                 {GOOSE, "<HONK>"},
                 {LUNA4S, "<hoot>"},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, IMPOSTER},
+            dialogue = {
+                {IMPOSTER, " [I heard < Luna > vent] "},
+                {LUNA4S, "No, you didn't. You didn't hear anything."},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, IMPOSTER},
+            dialogue = {
+                {IMPOSTER, " [< Luna > is cute] "},
+                {LUNA4S, "Nuh-uh!"},
+                {IMPOSTER, " [< Luna > is sus] "},
+                {LUNA4S, "Sure, I'll take that."},
             },
         })
 

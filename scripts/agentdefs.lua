@@ -51,9 +51,9 @@ return {
         team_select_img = {"gui/agents/team_select_1_luna4s.png"},
         traits = util.extend(commondefs.DEFAULT_AGENT_TRAITS) {mp = 8, mpMax = 8},
         skills = util.extend(commondefs.DEFAULT_AGENT_SKILLS) {},
-        startingSkills = {},
+        startingSkills = {anarchy = 2},
         abilities = util.tconcat({"sprint", "luna4s_chromakey"}, commondefs.DEFAULT_AGENT_ABILITIES),
-        upgrades = {"augment_luna4s_cloak", "item_tazer"},
+        upgrades = {"augment_luna4s_cloak", "item_luna4s_silencegrenade"},
         children = {},
         logs = {}
     },

@@ -51,7 +51,6 @@ function _M:activate(sim)
     local cells = self:getExplodeCells()
     self:getTraits().mainframe_status = "active"
     self:getTraits().luna4s_silenceRadius = 4
-    self:getTraits().hasHearing = false
     player:addCPUs(-(self:getTraits().PWRuse or 0), sim, x, y)
     sim:dispatchEvent(simdefs.EV_UNIT_ACTIVATE, {unit = self, cells = cells})
 
@@ -66,7 +65,6 @@ end
 function _M:deactivate(sim)
     self:getTraits().mainframe_status = "inactive"
     self:getTraits().luna4s_silenceRadius = nil
-    self:getTraits().hasHearing = false
 
     for i, camUnit in pairs(sim:getAllUnits()) do
         if camUnit and camUnit:getTraits().hadAttenuationHearing then
@@ -93,7 +91,7 @@ end
 
 function _M:onTrigger(sim, evType, evData)
     if evType == simdefs.TRG_UNIT_PICKEDUP and evData.item == self then
-        self:deactivate()
+        self:deactivate(sim)
     elseif evType == simdefs.TRG_UNIT_WARP and evData.unit ~= self then
         local selfCell = sim:getCell(self:getLocation())
         if (evData.to_cell == selfCell or evData.from_cell == selfCell) and evData.unit:getTraits().isAgent then
@@ -106,7 +104,7 @@ function _M:onTrigger(sim, evType, evData)
                 local x, y = self:getLocation()
                 player:addCPUs(-(self:getTraits().CPUperTurn or 0), sim, x, y)
             else
-                self:deactivate()
+                self:deactivate(sim)
             end
         end
     end

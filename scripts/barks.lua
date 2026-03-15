@@ -111,7 +111,8 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.5, { -- div 2 due to lack of 
 	"I'm honestly terrifying.",
 	"Posture Check.",
 	"Health Check.",
-	"~ Total eclipse ~"
+	"~ Total eclipse ~",
+	"Be kind to yourself, be kind to others..."
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}
@@ -154,8 +155,16 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.INSTALL_AUGMENT] = {T_PROB.p_augm, {
 -- }}
 -- LUNA4S[T_EVENT.DISGUISE_IN] = nil
--- LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .6), {
--- }}
+ LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .3), {
+		"Let me just disable tracking real quick...",
+		"Oh no my model broke!",
+		"Ad Break?",
+		"VTuber Powers, activate!",
+		"See you guys next time.",
+		"We're gonna do a very quick Ads.",
+		"Be right back...",
+		"Waar is ze heen gegaan?"
+ }}
 -- LUNA4S[T_EVENT.MEDGEL] = {T_PROB.p_medgel, {
 -- }}
 -- LUNA4S[T_EVENT.WAKE_OTHER] = nil

@@ -96,17 +96,22 @@ local _M = {
 local LUNA4S = {} ------------------------------------------------------------------------------------------
 
 -- LUNA4S[T_EVENT.EVENT_SELECTED] = {T_PROB.p_selected, {
--- }}
+-- }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}
 -- LUNA4S[T_EVENT.SHOOT_DRONE] = nil
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
-LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.25, { -- div 2 due to lack of variety
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.5, { -- div 2 due to lack of variety
 	"Not cute!",
 	"Nuh uh!",
-	"I'm honestly terrifying."
+	"Not cute!", -- doubled cuz theyre more generic
+	"Nuh uh!",
+	"I'm honestly terrifying.",
+	"Posture Check.",
+	"Health Check.",
+	"~ Total eclipse ~"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}

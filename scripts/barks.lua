@@ -135,7 +135,11 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 		"Mine.",
 		"Dankjewel!",
 		"I'll take that~",
-		"Ooooo!"
+		"Ooooo!",
+		"Dankje",
+		"Dankuwel",
+		"Bedankt",
+		"Straight into the Switch 2 Fund",
  }}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil
 -- LUNA4S[T_EVENT.THREAT_DEVICE_LOOTED] = nil

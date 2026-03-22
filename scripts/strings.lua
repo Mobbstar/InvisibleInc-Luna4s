@@ -13,7 +13,8 @@ ITEMS = {
     AUG_CLOAK = "Shimmer Rig",
     AUG_CLOAK_TIP = "Renders the user invisible until out of charge. Gains charge when looting a guard or safe. Loses charge in use when moving or ending turn.",
     AUG_CLOAK_FLAVOR = "Rather than the traditional method of bending light around the user, this short-burst cloak actually redirects light directly into the viewers' eyes.",
-    SILENCE_GRENADE = "Owl Feathers",
+		
+    SILENCE_GRENADE = "Audio Bubble", -- was "Owl Feathers", I changed this cuz Luna paints incredible bubbles and I think this would be a fun nod
     SILENCE_GRENADE_TIP = "Throw to place, activate in mainframe. Mutes and deafens tiles in a small area.",
     SILENCE_GRENADE_FLAVOR = "A microphone array detects nearby noise and emits a matching antiphase. Combined with Incognita's selective predictions, the result is near-silence.",
 },

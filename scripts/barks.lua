@@ -103,7 +103,7 @@ local LUNA4S = {} --------------------------------------------------------------
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
-LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- div due to lack of variety
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.7, { -- div due to lack of variety
 	"Not cute!",
 	"Nuh uh!",
 	"Not cute!", -- doubled cuz theyre more generic
@@ -114,7 +114,8 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- div due to lack of v
 	"~ Total eclipse ~",
 	"Be kind to yourself, be kind to others...",
 	"Hoot about and find out",
-	"Zoinks, Scoob!"
+	"Zoinks, Scoob!",
+	"Wanna see something cool?"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}
@@ -130,7 +131,7 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj / 2, { -- div 2 due to lack of variety
 -- 	"I keep getting the Endians wrong.", -- picross
 -- }}
- LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.25, {
+ LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.25, {  -- div cuz it will happen often
 		"Well hello there~",
 		"Plink.",
 		"Shiny!",
@@ -157,7 +158,7 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.INSTALL_AUGMENT] = {T_PROB.p_augm, {
 -- }}
 -- LUNA4S[T_EVENT.DISGUISE_IN] = nil
- LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .3), {
+ LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .1), { -- keeping this low cuz it will be toggled very often.
 		"Let me just disable tracking real quick...",
 		"Oh no my model broke!",
 		"Ad Break?",
@@ -165,7 +166,10 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 		"See you guys next time.",
 		"We're gonna do a very quick Ads.",
 		"Be right back...",
-		"Waar is ze heen gegaan?"
+		"Waar is ze heen gegaan?",
+		"Magic!",
+		"Vaarwel.",
+		"Tot ziens."
  }}
 -- LUNA4S[T_EVENT.MEDGEL] = {T_PROB.p_medgel, {
 -- }}

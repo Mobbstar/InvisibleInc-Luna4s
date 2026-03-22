@@ -103,7 +103,7 @@ local LUNA4S = {} --------------------------------------------------------------
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
-LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.5, { -- div 2 due to lack of variety
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- div due to lack of variety
 	"Not cute!",
 	"Nuh uh!",
 	"Not cute!", -- doubled cuz theyre more generic
@@ -112,7 +112,9 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.5, { -- div 2 due to lack of 
 	"Posture Check.",
 	"Health Check.",
 	"~ Total eclipse ~",
-	"Be kind to yourself, be kind to others..."
+	"Be kind to yourself, be kind to others...",
+	"Hoot about and find out",
+	"Zoinks, Scoob!"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}

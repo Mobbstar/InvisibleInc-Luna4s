@@ -68,6 +68,13 @@ AGENT = {
         {
             "Hoot.",
         },
+        LOCATION_SPECIFIC = { -- Talkative Agents
+            ["detention_centre"] = { -- mission type short name, as in serverdefs.ESCAPE_MISSION_TAGS
+                START = {
+                    "I better not see Olivia in here.", -- By: Puppetsquid;
+                },
+            },
+        },
     },
 },
 

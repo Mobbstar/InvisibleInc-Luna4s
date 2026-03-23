@@ -103,7 +103,7 @@ local LUNA4S = {} --------------------------------------------------------------
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
-LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.7, { -- div due to lack of variety
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.7, { -- reduced chance due to lack of variety
 	"Not cute!",
 	"Nuh uh!",
 	"Not cute!", -- doubled cuz theyre more generic
@@ -128,10 +128,10 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 }}
 -- LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- }}
--- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj / 2, { -- div 2 due to lack of variety
+-- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj * .5, { -- reduced chance due to lack of variety
 -- 	"I keep getting the Endians wrong.", -- picross
 -- }}
- LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.25, {  -- div cuz it will happen often
+ LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.25, {  -- reduced chance cuz it will happen often
 		"Well hello there~",
 		"Plink.",
 		"Shiny!",
@@ -224,21 +224,21 @@ GUARDS.LINES[_M.SCIENTIST] = {
 	"How can it be this hard to get a wire through a hole?" -- ethernet cable trouble
 }
 GUARDS.BANTERS = {
-	{
+	{ -- By: Mobbstar;
 		"I am irrevocably cute.",
 		"Ha, it's official!",
 	},
-	{
+	{ -- By: Mobbstar;
 		"Do you ever wonder if one of us is secretly a big holotuber?",
 		"That'd be an \"unacceptable risk\" according to our NDA.",
 		"Relax! It's just a wishful fantasy."
 	},
-	{
+	{ -- By: Mobbstar;
 		"<sigh> Why do people stream on weekdays?",
 		"Because then creeps like you don't bother her.",
 		"For the twentieth time, we're calling her \"cute\" as a running gag!"
 	},
-	{
+	{ -- By: Mobbstar;
 		"I have SO much homework to do.",
 		"Who's giving you homework?",
 		"Oh, it's this puzzle game i've been playing..."

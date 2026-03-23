@@ -74,4 +74,53 @@ return function(modApi)
             },
         })
 
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, DECKER},
+            dialogue = {
+                {DECKER, "So much for 'not leaving tracks'. Your hair just dropped a feather."},
+                {LUNA4S, "Keep it! It goes well with your hat."},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, MARIA},
+            dialogue = {
+                {LUNA4S, "The owl feathers don't interfere with your emitter, do they?"},
+                {MARIA, "It takes more than harmless soundwaves to stop me."},
+                {LUNA4S, "But it is enough to silence the people."},
+                {MARIA, "That doesn't stop them. It only makes them develop new tactics."},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, NIKA},
+            dialogue = {
+                {NIKA, "The scarf is dangerous. It will be used against you in combat."},
+                {LUNA4S, "I would think the same of your necktie."},
+                {NIKA, "It is clipped on. See?"},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, BANKS},
+            dialogue = {
+                {LUNA4S, "Remember our strategy: I grab the shinies, you grab the consoles."},
+                {BANKS, "Right, I teach them how to shout silence loud enough that no one hears us."},
+                {BANKS, "And of course, you'll split the swag after the mission."},
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, XU},
+            dialogue = {
+                {LUNA4S, "-while the lattice itself glows blue."},
+                {XU, "That's the Tyndall effect. We can mitigate it by minimizing sub-surface scattering..."},
+            },
+        })
+
 end

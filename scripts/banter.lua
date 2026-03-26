@@ -40,8 +40,8 @@ return function(modApi)
     modApi:addBanter({
             agents = {LUNA4S, GOOSE},
             dialogue = {
-                {GOOSE, "<HONK>"},
-                {LUNA4S, "<hoot>"},
+                {GOOSE, "< HONK >"},
+                {LUNA4S, "< hoot >"},
             },
         })
 
@@ -49,8 +49,16 @@ return function(modApi)
     modApi:addBanter({
             agents = {LUNA4S, GOOSE},
             dialogue = {
-                {GOOSE, "<HONK>"},
+                {GOOSE, "< HONK >"},
                 {LUNA4S, "Ben je betoeterd?!"},
+            },
+        })
+    -- By: Pupp;
+    modApi:addBanter({
+            agents = {LUNA4S, GOOSE},
+            dialogue = {
+                {GOOSE, "< FLAP >"},
+                {LUNA4S, "Oh thankyou, I love your feathers too!"},
             },
         })
 

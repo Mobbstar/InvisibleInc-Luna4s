@@ -170,7 +170,8 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 		"Magic!",
 		"Vaarwel.",
 		"Tot ziens.",
-		"Ah, must be imagining things"
+		"Ah, must be imagining things",
+		"De rattentaxi nemen!" -- a dutch saying for leaving a party without saying goodbye
  }}
 -- LUNA4S[T_EVENT.MEDGEL] = {T_PROB.p_medgel, {
 -- }}

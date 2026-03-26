@@ -158,7 +158,7 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.INSTALL_AUGMENT] = {T_PROB.p_augm, {
 -- }}
 -- LUNA4S[T_EVENT.DISGUISE_IN] = nil
- LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .1), { -- keeping this low cuz it will be toggled very often.
+ LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .2), { -- keeping this low cuz it will be toggled very often.
 		"Let me just disable tracking real quick...",
 		"Oh no my model broke!",
 		"Ad Break?",

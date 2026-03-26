@@ -115,12 +115,16 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.7, { -- reduced chance due to
 	"Be kind to yourself, be kind to others...",
 	"Hoot about and find out",
 	"Zoinks, Scoob!",
-	"Wanna see something cool?"
+	"Droeftoeter.",
+	"Hallootjes!"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}
--- LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow, {
--- }}
+LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow * 0.05, {
+	"Let's find someone to raid...",
+	"Wanna see something cool?",
+	"Wanna see a magic trick?",
+ }}
 
 LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 	"You jerk-",
@@ -131,7 +135,7 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj * .5, { -- reduced chance due to lack of variety
 -- 	"I keep getting the Endians wrong.", -- picross
 -- }}
- LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.25, {  -- reduced chance cuz it will happen often
+ LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.2, {  -- reduced chance cuz it will happen often
 		"Well hello there~",
 		"Plink.",
 		"Shiny!",
@@ -144,6 +148,9 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 		"Dankuwel",
 		"Bedankt",
 		"Straight into the Switch 2 Fund",
+		"Heerlijk!",
+		"Heerlie de peerlie.",
+		"Lekker."
  }}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil
 -- LUNA4S[T_EVENT.THREAT_DEVICE_LOOTED] = nil

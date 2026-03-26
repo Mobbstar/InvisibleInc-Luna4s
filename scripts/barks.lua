@@ -124,6 +124,7 @@ LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow * 0.05, {
 	"Let's find someone to raid...",
 	"Wanna see something cool?",
 	"Wanna see a magic trick?",
+	"The owl prepares to strike."
  }}
 
 LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {

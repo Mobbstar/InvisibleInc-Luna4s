@@ -53,12 +53,24 @@ return function(modApi)
                 {LUNA4S, "Ben je betoeterd?!"},
             },
         })
+    
     -- By: Pupp;
     modApi:addBanter({
             agents = {LUNA4S, GOOSE},
             dialogue = {
                 {GOOSE, "< FLAP >"},
                 {LUNA4S, "Oh thankyou, I love your feathers too!"},
+            },
+        })
+    
+    -- By: Pupp;
+    modApi:addBanter({
+            agents = {LUNA4S, GOOSE},
+            dialogue = {
+                {GOOSE, " !!! "},
+                {LUNA4S, "Oh, sorry, let me turn this off-"},
+                {GOOSE, " < HONK HONK HON- > "},
+                {LUNA4S, "On second thought..."},
             },
         })
 

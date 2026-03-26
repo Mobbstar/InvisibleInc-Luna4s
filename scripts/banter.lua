@@ -107,7 +107,7 @@ return function(modApi)
     modApi:addBanter({
             agents = {LUNA4S, DRACO},
             dialogue = {
-                {DRACO, "Doesn't the bright white spoil your hunt?"},
+                {DRACO, "Doesn't the bright white outfit spoil your hunt?"},
                 {LUNA4S, "Owls terrorize the night just as much as bats do."},
             },
         })

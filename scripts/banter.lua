@@ -90,6 +90,15 @@ return function(modApi)
                 {DRACO, "I know not what you speak of, haunted one."},
             },
         })
+    
+    -- By: Pupp;
+    modApi:addBanter({
+            agents = {LUNA4S, DRACO},
+            dialogue = {
+                {DRACO, "Doesn't the bright white spoil your hunt?"},
+                {LUNA4S, "Owls terrorize the night just as much as bats do."},
+            },
+        })
 
     -- By: Mobbstar;
     modApi:addBanter({

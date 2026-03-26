@@ -45,6 +45,15 @@ return function(modApi)
             },
         })
 
+    -- By: Pupp;
+    modApi:addBanter({
+            agents = {LUNA4S, GOOSE},
+            dialogue = {
+                {GOOSE, "<HONK>"},
+                {LUNA4S, "Ben je betoeterd?!"},
+            },
+        })
+
     -- By: Mobbstar;
     modApi:addBanter({
             agents = {LUNA4S, IMPOSTER},

@@ -161,4 +161,23 @@ return function(modApi)
             },
         })
 
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, URIST},
+            dialogue = {
+                {URIST, "Is the elemental moonstone collection as shiny as they say?"}, -- Moonstone Quest, https://youtu.be/HCHAOXpOfWU?t=6644
+                {LUNA4S, "Hehehehe..."}, -- she stoled them… https://youtu.be/dPI6sLumpow?t=14356
+            },
+        })
+
+    -- By: Mobbstar;
+    modApi:addBanter({
+            agents = {LUNA4S, URIST},
+            dialogue = {
+                {LUNA4S, "They step on the thing?"}, -- https://www.youtube.com/shorts/0lzw-TLag1M
+                {URIST, "Indeed, guards only avoid traps registered in their HUD. K&O had vicious shock-mines for a while. Could kill a horse on the spot."},
+                {LUNA4S, "Oh no! Not our horse! Why would they do that?!"}, -- https://youtu.be/rGQ00jm_aSc?t=1760
+            },
+        })
+
 end

@@ -224,7 +224,8 @@ GUARDS.LINES[_M.GENERIC] = {
 GUARDS.LINES[_M.GENERIC_HUNTING] = { 
 	"Don't fall for the cute one!",
 	"Careful, I heard there's a pirate here!",
-	"We're ~owl~ exterminators",
+	"We're ~owl~ exterminators.",
+	"She took my shinies!"
 }
 GUARDS.LINES[_M.CFO] = { 
 	"Yes, hello, I need priority support for Live3D…",

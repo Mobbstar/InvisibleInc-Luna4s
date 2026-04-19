@@ -265,7 +265,7 @@ GUARDS.BANTERS = {
 	},
 	
 	{ -- By: Pupp;
-		"D'you know the most common owl in the UK is?",
+		"D'you what know the most common owl in the UK is?",
 		"A Teat-owl.",
 		"A Tea- hey! Stop ruining my jokes."
 	},

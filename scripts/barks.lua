@@ -261,7 +261,7 @@ GUARDS.BANTERS = {
 		"I move my owls with pride!"
 	},
 	{ -- By: Pupp;
-		"I paid all my bills for college, by using all my owl rotation knowledge",
+		"I paid off all my bills for college, by using all my owl rotation knowledge",
 	},
 	
 	{ -- By: Pupp;

@@ -125,7 +125,7 @@ return function(modApi)
     modApi:addBanter({
             agents = {LUNA4S, MARIA},
             dialogue = {
-                {LUNA4S, "The owl feathers don't interfere with your emitter, do they?"},
+                {LUNA4S, "The audio bubble doesn't interfere with your emitter, does it?"},
                 {MARIA, "It takes more than harmless soundwaves to stop me."},
                 {LUNA4S, "But it is enough to silence the people."},
                 {MARIA, "That doesn't stop them. It only makes them develop new tactics."},

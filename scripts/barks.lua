@@ -237,8 +237,8 @@ GUARDS.LINES[_M.SCIENTIST] = {
 	"I could be at the forefront of motion capture right now…",
 	"How can it be this hard to get a wire through a hole?", -- ethernet cable trouble,
 	"Ro-ro. rotate your owl. Ro-ro. rotate your owl.",
-	"I paid off all my bills for college, by using all my owl rotation knowledge.",
-	"This lab ain't for fun so leave your fun owls at home.",
+	--"I paid off all my bills for college, by using all my owl rotation knowledge.",
+	--"This lab ain't for fun so leave your fun owls at home.",
 }
 GUARDS.BANTERS = {
 	{ -- By: Mobbstar;

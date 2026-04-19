@@ -230,7 +230,9 @@ GUARDS.LINES[_M.CFO] = {
 }
 GUARDS.LINES[_M.SCIENTIST] = { 
 	"I could be at the forefront of motion capture right now…",
-	"How can it be this hard to get a wire through a hole?" -- ethernet cable trouble
+	"How can it be this hard to get a wire through a hole?", -- ethernet cable trouble,
+	"Ro-ro. rotate your owl. Ro-ro. rotate your owl.",
+	"I paid off all my bills for college, by using all my owl rotation knowledge.",
 }
 GUARDS.BANTERS = {
 	{ -- By: Mobbstar;
@@ -254,14 +256,8 @@ GUARDS.BANTERS = {
 	},
 	
 	{ -- By: Pupp;
-		"Ro-ro-rotate your owl. Ro-ro-rotate your owl."
-	},
-	{ -- By: Pupp;
 		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side-",
 		"I move my owls with pride!"
-	},
-	{ -- By: Pupp;
-		"I paid off all my bills for college, by using all my owl rotation knowledge",
 	},
 	
 	{ -- By: Pupp;

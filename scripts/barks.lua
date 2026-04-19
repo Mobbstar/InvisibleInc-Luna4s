@@ -271,7 +271,7 @@ GUARDS.BANTERS = {
 	},
 	{ -- By: Pupp;
 		"Did you hear that?",
-		"I- I didn't heard anything?",
+		"I- I didn't hear anything?",
 		"Exactly..."
 	},
 	{ -- By: Pupp;

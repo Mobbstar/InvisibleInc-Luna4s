@@ -261,10 +261,10 @@ GUARDS.BANTERS = {
 		"Oh, it's this puzzle game i've been playing..."
 	},
 	
-	{ -- By: Pupp;
-		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side-",
-		"I move my owls with pride!"
-	},
+--	{ -- By: Pupp;
+--		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side-",
+--		"I move my owls with pride!"
+--	},
 	
 	{ -- By: Pupp;
 		"D'you know what the most common owl in the UK is?",

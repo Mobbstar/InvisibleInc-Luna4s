@@ -218,15 +218,18 @@ GUARDS.LINES[_M.GENERIC] = {
 	"I hope she goes overtime. Maybe I'll catch the tail end after my shift.",
 	"Wait, do owls have ears?",
 	"Time for a Health Check! Too bad I left my water.",
-	"I wonder if streaming pays well."
+	"I wonder if streaming pays well.",
+	"It's quiet. Too quiet.",
 }
 GUARDS.LINES[_M.GENERIC_HUNTING] = { 
 	"Don't fall for the cute one!",
 	"Careful, I heard there's a pirate here!",
+	"We're ~owl~ exterminators",
 }
 GUARDS.LINES[_M.CFO] = { 
 	"Yes, hello, I need priority support for Live3D…",
 	"\"Easier than holorig\", they said. Doesn't feel easy.",
+	"'Owl Insurance'!? Who the hell needs 'Owl Insurance'!?"
 }
 GUARDS.LINES[_M.SCIENTIST] = { 
 	"I could be at the forefront of motion capture right now…",
@@ -270,9 +273,7 @@ GUARDS.BANTERS = {
 		"I- I didn't hear anything?",
 		"Exactly..."
 	},
-	{ -- By: Pupp;
-		"It's quiet. Too quiet.",
-	},
+	
 }
 GUARDS.BANTERS_HUNTING = {
 }

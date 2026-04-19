@@ -269,6 +269,14 @@ GUARDS.BANTERS = {
 		"A Teat-owl.",
 		"A Tea- hey! Stop ruining my jokes."
 	},
+	{ -- By: Pupp;
+		"Did you hear that?",
+		"I- I didn't heard anything?",
+		"Exactly..."
+	},
+	{ -- By: Pupp;
+		"It's quiet. Too quiet.",
+	},
 }
 GUARDS.BANTERS_HUNTING = {
 }

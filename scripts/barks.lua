@@ -230,7 +230,8 @@ GUARDS.LINES[_M.GENERIC_HUNTING] = {
 GUARDS.LINES[_M.CFO] = { 
 	"Yes, hello, I need priority support for Live3D…",
 	"\"Easier than holorig\", they said. Doesn't feel easy.",
-	"'Owl Insurance'!? Who the hell needs 'Owl Insurance'!?"
+	"'Owl Insurance'!? Who the hell needs 'Owl Insurance'!?",
+	"Bonuses for christmas? They'll get a twtich sub and be happy for it."
 }
 GUARDS.LINES[_M.SCIENTIST] = { 
 	"I could be at the forefront of motion capture right now…",

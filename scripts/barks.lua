@@ -257,8 +257,8 @@ GUARDS.BANTERS = {
 		"Ro-ro-rotate your owl. Ro-ro-rotate your owl."
 	},
 	{ -- By: Pupp;
-		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side, I move my owls with pride.",
-		"But if you want something more special come see me, I move my owls really professionally."
+		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side-",
+		"I move my owls with pride!"
 	},
 	{ -- By: Pupp;
 		"I paid all my bills for college, by using all my owl rotation knowledge",

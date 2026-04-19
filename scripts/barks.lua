@@ -247,10 +247,27 @@ GUARDS.BANTERS = {
 		"Because then creeps like you don't bother her.",
 		"For the twentieth time, we're calling her \"cute\" as a running gag!"
 	},
-	{ -- By: Mobbstar;
+	{ -- By: Pupp;
 		"I have SO much homework to do.",
 		"Who's giving you homework?",
 		"Oh, it's this puzzle game i've been playing..."
+	},
+	
+	{ -- By: Pupp;
+		"Ro-ro-rotate your owl. Ro-ro-rotate your owl."
+	},
+	{ -- By: Pupp;
+		"Yeah, gimme an owl, I move it up, I move it down, I move it side to side, I move my owls with pride.",
+		"But if you want something more special come see me, I move my owls really professionally."
+	},
+	{ -- By: Pupp;
+		"I paid all my bills for college, by using all my owl rotation knowledge",
+	},
+	
+	{ -- By: Pupp;
+		"D'you know the most common owl in the UK is?",
+		"A Teat-owl.",
+		"A Tea- hey! Stop ruining my jokes."
 	},
 }
 GUARDS.BANTERS_HUNTING = {

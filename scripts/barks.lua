@@ -51,7 +51,7 @@ local T_EVENT = rawget(simdefs,"TA_EVENT_TABLE") and simdefs.TA_EVENT_TABLE.EVEN
 	SURRENDER = "TA_SURRENDER", --for "surrender" ability from New Corporate Tactics. unused simdefs.TRG_LAST_WORDS
 }
 local T_PROB = rawget(simdefs,"TA_EVENT_TABLE") and simdefs.TA_EVENT_TABLE.PROBS or {
-	p_selected = 0.1,
+	p_selected = 0.01,
 	p_gun = 0.7,
 	p_gunko = 0.7,
 	p_melee = 0.6,

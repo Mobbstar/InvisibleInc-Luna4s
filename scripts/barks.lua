@@ -51,7 +51,7 @@ local T_EVENT = rawget(simdefs,"TA_EVENT_TABLE") and simdefs.TA_EVENT_TABLE.EVEN
 	SURRENDER = "TA_SURRENDER", --for "surrender" ability from New Corporate Tactics. unused simdefs.TRG_LAST_WORDS
 }
 local T_PROB = rawget(simdefs,"TA_EVENT_TABLE") and simdefs.TA_EVENT_TABLE.PROBS or {
-	p_selected = 1,
+	p_selected = 0.1,
 	p_gun = 0.7,
 	p_gunko = 0.7,
 	p_melee = 0.6,
@@ -95,8 +95,13 @@ local _M = {
 
 local LUNA4S = {} ------------------------------------------------------------------------------------------
 
--- LUNA4S[T_EVENT.EVENT_SELECTED] = {T_PROB.p_selected, {
--- }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
+ LUNA4S[T_EVENT.EVENT_SELECTED] = {T_PROB.p_selected, {
+	"I'm putting a lot of trust in myself here.",
+	"Hey, thanks for stopping by!",
+	"Hey chat!",
+	"Hoot Hoot!",
+	"!luna"
+ }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}
 -- LUNA4S[T_EVENT.SHOOT_DRONE] = nil
@@ -111,13 +116,14 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- reduced chance due t
 	"I'm honestly terrifying.",
 	"Posture Check.",
 	"Health Check.",
-	"~ Total eclipse ~",
+	"~ Total Eclipse ~",
 	"Be kind to yourself, be kind to others...",
 	"Hoot about and find out",
 	"Zoinks, Scoob!",
 	"Hou je kop, droeftoeter!",
 	"Hallootjes!",
-	"Get zappied!"
+	"Get zappied!",
+	--"I love that scream, that was a good scream"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
 -- }}
@@ -130,6 +136,8 @@ LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow * 0.125, {
 	"Stream starting soon...",
 	"Ready to zappy.",
 	"I'm sure this is fiiine.",
+	"Get ready to clip this!",
+	"Did I hear pocket money?"
  }}
 
 LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
@@ -157,7 +165,8 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 		"Heerlijk!",
 		"Heerlie de peerlie.",
 		"Lekker.",
-		"Heck yeh!"
+		"Heck yeh!",
+		"Mice!"
  }}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil
 -- LUNA4S[T_EVENT.THREAT_DEVICE_LOOTED] = nil
@@ -167,8 +176,13 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.PEEK] = {T_PROB.p_peek, {
 -- }}
 
--- LUNA4S[T_EVENT.PIN] = {T_PROB.p_pin, {
--- }}
+ LUNA4S[T_EVENT.PIN] = {T_PROB.p_pin * 0.1, {
+		"We need to keep this guy down...",
+		"What have you got in your pockets?",
+		"Did I loot you already?",
+		"Sleep well!",
+		"!headpat Guard"
+ }}
 -- LUNA4S[T_EVENT.INSTALL_AUGMENT] = {T_PROB.p_augm, {
 -- }}
 -- LUNA4S[T_EVENT.DISGUISE_IN] = nil

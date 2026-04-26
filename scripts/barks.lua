@@ -124,6 +124,7 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- reduced chance due t
 	"Hou je kop, droeftoeter!",
 	"Hallootjes!",
 	"Get zappied!",
+	"Hi!"
 	--"I love that scream, that was a good scream"
 }}
 -- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {

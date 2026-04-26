@@ -6,7 +6,7 @@ local useInvisiCloak = abilitydefs._abilities.useInvisiCloak
 
 local _M = {
     name = STRINGS.ABILITIES.CLOAK,
-    profile_icon = "gui/icons/item_icons/items_icon_small/icon-item_invisicloak_small.png",
+    profile_icon = "gui/icons/item_icons/items_icon_small/icon-item_luna4s_invisicloak_small.png",
     alwaysShow = true,
     HUDpriority = 5
 }

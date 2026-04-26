@@ -63,7 +63,6 @@ AGENT = {
     BANTER = {
         START = {
             "Hoot.",
-			"Time to get to work!"
         },
         FINAL_WORDS =
         {

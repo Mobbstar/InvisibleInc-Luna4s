@@ -4,10 +4,12 @@ This mod adds the character the streamer [Luna4s](https://www.twitch.tv/luna4s) 
 
 ## Installation
 
+If you play *Invisible, Inc.* through Steam, you can get the mod from the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3715499265).
+
 You can download the most recent full build of the mod from the [Releases](https://github.com/Mobbstar/InvisibleInc-Luna4s/releases), and unzip it into your Mods folder. Each change also produces a build that you can download from the [Action](https://github.com/Mobbstar/InvisibleInc-MoreMissions/actions), but it might not have been tested in-game yet.
 
 If you download the source files directly, make sure to compile them:
-- scripts.zip - Simply but all the contents of the "scripts" directory directly into a zip file with the same name.
+- scripts.zip - Simply put all the contents of the "scripts" directory directly into a zip file with the same name.
 - KWAD files - Run the KWAD builder to generate a fresh KWAD file from the raw assets in this repository. View the official modding tutorials for more information.
 
 This mod requires [Sim Constructor by Cyberboy2000](https://steamcommunity.com/workshop/filedetails/?id=580661011).

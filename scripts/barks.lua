@@ -102,7 +102,9 @@ local LUNA4S = {} --------------------------------------------------------------
 	"Hoot Hoot!",
 	"!luna",
 	"Time to get to work.",
-	"It's me!"
+	"It's me!",
+	"It's lovely to see you!",
+	"How's my audio?"
  }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}
@@ -211,7 +213,15 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- }}
 
 -- LUNA4S[T_EVENT.PARALYZER] = nil
--- LUNA4S[T_EVENT.STIM_SELF] = nil
+ LUNA4S[T_EVENT.STIM_SELF] = {0.5, {
+	"HOOT HOOOOT!",
+	"Let's get dems shinies!!",
+	"Heck Yeh!!",
+	"Dutch minute!",
+	"Wooosh!",
+	"Look at me GO!",
+	"Nyoooom!",
+}}
 -- LUNA4S[T_EVENT.STIM_OTHER] = nil
 -- LUNA4S[T_EVENT.SELF_STIMMED] = nil
 -- LUNA4S[T_EVENT.STIMMED_BY] = nil

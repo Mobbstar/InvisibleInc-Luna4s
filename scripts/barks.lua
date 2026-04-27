@@ -105,7 +105,8 @@ local LUNA4S = {} --------------------------------------------------------------
 	"It's me!",
 	"It's lovely to see you!",
 	"How's my audio?",
-	"Now to not have me get shot..."
+	"Now to not have me get shot...",
+	"Wow, who picked this loadout?"
  }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}

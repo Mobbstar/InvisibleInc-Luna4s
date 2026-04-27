@@ -151,8 +151,9 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 	"You jerk-",
 	"Hoot!",
 }}
--- LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
--- }}
+LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
+	"I'd love to hear my last words, but I'm not dying quite yet.", -- https://youtu.be/xfAZQCPM0nE?t=11470
+}}
 -- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj * .5, { -- reduced chance due to lack of variety
 -- 	"I keep getting the Endians wrong.", -- picross
 -- }}

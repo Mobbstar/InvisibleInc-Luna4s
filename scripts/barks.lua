@@ -101,7 +101,8 @@ local LUNA4S = {} --------------------------------------------------------------
 	"Hey chat!",
 	"Hoot Hoot!",
 	"!luna",
-	"Time to get to work."
+	"Time to get to work.",
+	"It's me!"
  }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}
@@ -217,8 +218,9 @@ LUNA4S[T_EVENT.GOT_HIT] = {T_PROB.p_gothit, {
 -- LUNA4S[T_EVENT.AWAKENED_BY] = nil
 -- LUNA4S[T_EVENT.RESCUER] = {T_PROB.p_rescuer, {
 -- }}
--- LUNA4S[T_EVENT.BAD_ESCAPE] = {T_PROB.p_badescape, {
--- }}
+ LUNA4S[T_EVENT.BAD_ESCAPE] = {T_PROB.p_badescape, {
+	"Despite everything, it's still me."
+ }}
 -- LUNA4S[T_EVENT.GOOD_ESCAPE] = {T_PROB.p_goodescape, {
 -- }}
 -- LUNA4S[T_EVENT.BLOODY_MISSION] = {T_PROB.p_bloodymission, {

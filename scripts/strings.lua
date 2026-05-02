@@ -11,7 +11,7 @@ Adds Luna4s (Archive) to rescueable agents.]],
 
 ITEMS = {
     AUG_CLOAK = "Shimmer Rig",
-    AUG_CLOAK_TIP = "Renders the user invisible until out of charge. Gains charge when looting a guard or safe. Loses charge in use when moving or ending turn.",
+    AUG_CLOAK_TIP = "Renders the user invisible until out of charge. Gains charge when looting a guard or safe. Loses charge for each space moved, or when ending the turn while active.",
     AUG_CLOAK_FLAVOR = "Rather than the traditional method of bending light around the user, this short-burst cloak actually redirects light directly into the viewers' eyes.",
 		
     SILENCE_GRENADE = "Audio Bubble", -- was "Owl Feathers", I changed this cuz Luna paints incredible bubbles and I think this would be a fun nod

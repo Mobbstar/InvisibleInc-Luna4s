@@ -101,12 +101,13 @@ local LUNA4S = {} --------------------------------------------------------------
 	"Hey chat!",
 	"Hoot Hoot!",
 	"!luna",
-	"Time to get to work.",
+	--"Time to get to work.",
 	"It's me!",
 	"It's lovely to see you!",
 	"How's my audio?",
-	"Now to not have me get shot...",
-	"Wow, who picked this loadout?"
+	"Now, to not have me get shot...",
+	"Wow, who picked this loadout?",
+	"The owl demands shinies."
  }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
 -- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
 -- }}
@@ -174,7 +175,8 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 		"Heerlie de peerlie.",
 		"Lekker.",
 		"Heck yeh!",
-		"Mice!"
+		"Mice!",
+		"Wanna get the shiny"
  }}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil
 -- LUNA4S[T_EVENT.THREAT_DEVICE_LOOTED] = nil

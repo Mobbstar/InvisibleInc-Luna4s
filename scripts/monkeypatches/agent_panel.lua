@@ -15,4 +15,4 @@ agent_panel.refreshAgentInfo = function(unit, binder, self, ...)
     return unpack(result)
 end
 
-upvalueUtil.findAndReplace(agent_panel.agent_panel.refreshPanel, "refreshAgentInfo", agent_panel.refreshAgentInfo)
+upvalueUtil.findAndReplace(agent_panel.agent_panel.refreshPanel, "refreshAgentInfo", agent_panel.refreshAgentInfo, 10)

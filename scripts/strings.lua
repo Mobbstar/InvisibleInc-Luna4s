@@ -66,7 +66,7 @@ AGENT = {
         },
         FINAL_WORDS =
         {
-            "Hoot.",
+            "I need more circles to survive death.", -- Vampire Crawlers, https://youtu.be/qhZPdLb8QHA
         },
         LOCATION_SPECIFIC = { -- Talkative Agents
             ["detention_centre"] = { -- mission type short name, as in serverdefs.ESCAPE_MISSION_TAGS

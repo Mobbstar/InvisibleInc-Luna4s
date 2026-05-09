@@ -95,7 +95,7 @@ local _M = {
 
 local LUNA4S = {} ------------------------------------------------------------------------------------------
 
- LUNA4S[T_EVENT.EVENT_SELECTED] = {T_PROB.p_selected, {
+LUNA4S[T_EVENT.EVENT_SELECTED] = {T_PROB.p_selected, {
 	"I'm putting a lot of trust in myself here.",
 	"Hey, thanks for stopping by!",
 	"Hey chat!",
@@ -108,14 +108,15 @@ local LUNA4S = {} --------------------------------------------------------------
 	"Now, to not have me get shot...",
 	"Wow, who picked this loadout?",
 	"The owl demands shinies."
- }}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
--- LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun, {
--- }}
+}}   --I don't have to murder everyone in the building. But I could. (Eclipse alt?)
+LUNA4S[T_EVENT.ATTACK_GUN] = {T_PROB.p_gun * 0.25, {
+	"Offense being our strongest defense is starting to become a problem.", -- https://youtu.be/wcrXdSVjtpY?t=729
+}}
 -- LUNA4S[T_EVENT.SHOOT_DRONE] = nil
 -- LUNA4S[T_EVENT.SHOOT_CAMERA] = nil
 -- LUNA4S[T_EVENT.ATTACK_GUN_KO] = {T_PROB.p_gunko, {
 -- }}
-LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- reduced chance due to lack of variety
+LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, {
 	"Not cute!",
 	"Nuh uh!",
 	"Not cute!", -- doubled cuz theyre more generic
@@ -133,8 +134,10 @@ LUNA4S[T_EVENT.ATTACK_MELEE] = {T_PROB.p_melee * 0.75, { -- reduced chance due t
 	"Hi!"
 	--"I love that scream, that was a good scream"
 }}
--- LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow, {
--- }}
+LUNA4S[T_EVENT.OVERWATCH] = {T_PROB.p_ow * 0.25, {
+	"I never took that archery class.", -- https://youtu.be/qhZPdLb8QHA?t=8722
+	"Tower defense!", -- https://youtu.be/qhZPdLb8QHA?t=6216
+}}
 LUNA4S[T_EVENT.OVERWATCH_MELEE] = {T_PROB.p_ow * 0.125, {
 	"Let's find someone to raid...",
 	"Wanna see something cool?",
@@ -158,7 +161,7 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- LUNA4S[T_EVENT.HIJACK] = {T_PROB.p_hj * .5, { -- reduced chance due to lack of variety
 -- 	"I keep getting the Endians wrong.", -- picross
 -- }}
- LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.5, {  -- reduced chance cuz it will happen often
+LUNA4S[T_EVENT.SAFE_LOOTED] = {T_PROB.p_loot * 0.5, {  -- reduced chance cuz it will happen often
 		"Well hello there~",
 		"Plink.",
 		"Shiny!",
@@ -177,7 +180,7 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 		"Heck yeh!",
 		"Mice!",
 		"Wanna get the shiny"
- }}
+}}
 -- LUNA4S[T_EVENT.EXEC_TERMINAL_LOOTED] = nil
 -- LUNA4S[T_EVENT.THREAT_DEVICE_LOOTED] = nil
 
@@ -186,17 +189,17 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- LUNA4S[T_EVENT.PEEK] = {T_PROB.p_peek, {
 -- }}
 
- LUNA4S[T_EVENT.PIN] = {T_PROB.p_pin * 0.1, {
+LUNA4S[T_EVENT.PIN] = {T_PROB.p_pin * 0.1, {
 		"We need to keep this guy down...",
 		"What have you got in your pockets?",
 		"Did I loot you already?",
 		"Sleep well!",
 		"!headpat Guard"
- }}
+}}
 -- LUNA4S[T_EVENT.INSTALL_AUGMENT] = {T_PROB.p_augm, {
 -- }}
 -- LUNA4S[T_EVENT.DISGUISE_IN] = nil
- LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .3), { -- keeping this low cuz it will be toggled very often.
+LUNA4S[T_EVENT.CLOAK_IN] = {math.min(T_PROB.p_cloak, .3), { -- keeping this low cuz it will be toggled very often.
 		"Let me just disable tracking real quick...",
 		"Oh no my model broke!",
 		"Ad Break?",
@@ -210,7 +213,7 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 		"Tot ziens.",
 		"Ah, must be imagining things",
 		"De rattentaxi nemen!" -- a dutch saying for leaving a party without saying goodbye
- }}
+}}
 -- LUNA4S[T_EVENT.MEDGEL] = {T_PROB.p_medgel, {
 -- }}
 -- LUNA4S[T_EVENT.WAKE_OTHER] = nil
@@ -218,7 +221,7 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- }}
 
 -- LUNA4S[T_EVENT.PARALYZER] = nil
- LUNA4S[T_EVENT.STIM_SELF] = {0.5, {
+LUNA4S[T_EVENT.STIM_SELF] = {0.5, {
 	"HOOT HOOOOT!",
 	"Let's get dems shinies!!",
 	"Heck Yeh!!",
@@ -233,9 +236,9 @@ LUNA4S[T_EVENT.REVIVED] = {T_PROB.p_revived, {
 -- LUNA4S[T_EVENT.AWAKENED_BY] = nil
 -- LUNA4S[T_EVENT.RESCUER] = {T_PROB.p_rescuer, {
 -- }}
- LUNA4S[T_EVENT.BAD_ESCAPE] = {T_PROB.p_badescape, {
+LUNA4S[T_EVENT.BAD_ESCAPE] = {T_PROB.p_badescape, {
 	"Despite everything, it's still me."
- }}
+}}
 -- LUNA4S[T_EVENT.GOOD_ESCAPE] = {T_PROB.p_goodescape, {
 -- }}
 -- LUNA4S[T_EVENT.BLOODY_MISSION] = {T_PROB.p_bloodymission, {
@@ -268,12 +271,12 @@ GUARDS.LINES[_M.GENERIC_HUNTING] = {
 }
 GUARDS.LINES[_M.CFO] = { 
 	"Yes, hello, I need priority support for Live3D…",
-	"\"Easier than holorig\", they said. Doesn't feel easy.",
+	-- "\"Easier than holorig\", they said. Doesn't feel easy.",
 	"'Owl Insurance'!? Who the hell needs 'Owl Insurance'!?",
 	"Bonuses for christmas? They'll get a Twitch sub and be happy for it."
 }
 GUARDS.LINES[_M.SCIENTIST] = { 
-	"I could be at the forefront of motion capture right now…",
+	-- "I could be at the forefront of motion capture right now…",
 	"How can it be this hard to get a wire through a hole?", -- ethernet cable trouble,
 	"Ro-ro. rotate your owl. Ro-ro. rotate your owl.",
 	--"I paid off all my bills for college, by using all my owl rotation knowledge.",

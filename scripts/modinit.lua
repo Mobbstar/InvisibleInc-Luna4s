@@ -34,6 +34,7 @@ local function init(modApi)
 
     local scriptPath = modApi:getScriptPath()
     include(scriptPath .. "/monkeypatches/senses")
+    include(scriptPath .. "/monkeypatches/simfactory")
     include(scriptPath .. "/monkeypatches/simunit")
     include(scriptPath .. "/monkeypatches/simquery")
     include(scriptPath .. "/monkeypatches/simengine")
